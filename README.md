@@ -107,24 +107,7 @@ Glossing is not consistent across previous publications. For the present analysi
 This file produces a transducer network of verbs with placeholders PP1, PP2 or PP3 as well as M for personal pronouns, depending on the verb class.
 
 #### Examples
-<table>
-  <tr>
-    <td colspan="3" style="border-bottom: 2px solid black;"><strong>Upper side</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 52px;">PP3yaηkÁ+Verb+Pl</td>
-    <td style="padding-right: 52px;">waPP2yúha+Verb </td>
-    <td style="padding-right: 52px;">MiPP1čháǧA+Verb</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">PP3yaηkÁAblautApi</td>
-    <td style="border-bottom: 2px solid black;">waPP2yúhaAblautE</td>
-    <td style="border-bottom: 2px solid black;">MiPP1čháǧAAblautE</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Lower side</strong></td>
-  </tr>
-</table>
+<img src="images/verb-lexc-example-png.png" alt="verb-lexc-example" width="530">
 
 The upper side contains information as to where the persononal pronouns upper side will be inserted, as well as the verb marker and a plural marker if appropriate.
 The lower side contains information as to where the personal pronouns lower side will be inserted as well as information on letters that undergo changes (AblautA, AblautE, ^K, ^Y) and the plural ending pi, if appropriate.
