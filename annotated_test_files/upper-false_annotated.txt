@@ -1,0 +1,64 @@
+!intransitive stative with active pronoun
+í+Stem+1SG:ACT+puzA
+i+Stem+2PL:ACT+čháǧA+Verb+Pl
+
+!intransitive active with stative pronoun
+wa+Stem+1SG:STA+yúha+Verb
+2PL:STA+yaηkÁ+Verb+Pl
+
+!transitive stative with active pronoun
+íη+Stem+1SG:ACT+skokeča+Verb
+
+!transitive active with two stative pronouns (only class1)
+1PL:STA+2SG:STA+kaȟníǧA+Verb+Pl
+slol+Stem+1SG:STA+3SG:STA+yÁ+Verb
+
+!wrong order of personal pronouns (correct for active transitive: 1-2, 1-3, 2-3, COLL-1, COLL-2, COLL-3)
+!class1
+slol+Stem+3PL:STA+1SG:ACT+yÁ+Verb+Pl
+slol+Stem+3PL:ACT+2SG:STA+yÁ+Verb+Pl
+o+Stem+2SG:ACT+1SG:STA+lé+Verb
+na+Stem+2PL:ACT+3COLL:STA+ȟ'úη+Verb+Pl
+!class2
+2SG:STA+1SG:ACT+yuónihaη+Verb
+1PL:ACT+3COLL:STA+yuónihaη+Verb+Pl
+2SG:ACT+3COLL:STA+yuónihaη+Verb
+!class3
+i+Stem+1SG:ACT+3COLL:STA+yúηǧA+Verb
+i+Stem+2SG:ACT+1PL:STA+yúηǧA+Verb+Pl
+
+!1PL, 1DUAL infixed in mixed verbs
+o+Stem+1DUAL:ACT+3SG:STA+lé+Verb
+a+Stem+1PL:ACT+2SG:STA+yúštaη+Verb+Pl
+
+!First person prefixed when occuring with 3COLL in mixed verbs
+1SG:ACT+a+Stem+3COLL:STA+yúštaη+Verb
+1PL:ACT+a+Stem+3COLL:STA+yúštaη+Verb+Pl
+
+!1DUAL, 1PL prefixed in infix verbs
+1DUAL:ACT+waηyáηkA+Verb
+1PL:STA+na+Stem+2SG:ACT+ȟ'úη+Verb+Pl
+
+!plural personal pronoun without plural ending
+waη+Stem+1PL:ACT+yáηkA+Verb
+na+Stem+1PL:ACT+2SG:STA+ȟ'úη+Verb
+na+Stem+1PL:ACT+2PL:STA+ȟ'úη+Verb
+
+!singular or collective personal pronoun with plural ending
+čhažé+Stem+3COLL:STA+2SG:ACT+yatA+Verb+Pl
+i+Stem+3SG:STA+čháǧA+Verb+Pl
+
+!personal pronouns not allowed together (1SG-1DUAL, 1SG-1PL, 2SG-2PL, 1DUAL-2SG, pronouns with itself)
+1DUAL:ACT+2SG:STA+kaȟníǧA+Verb
+2PL:STA+2SG:ACT+kaȟníǧA+Verb+Pl
+1SG:STA+1PL:ACT+kaȟníǧA+Verb+Pl
+1PL:STA+1SG:ACT+úη+Verb+Pl
+1PL:STA+1DUAL:ACT+yuónihaη+Verb+Pl
+
+!infix verb with +Stem+ if no pronoun infixed
+waη+Stem+yáηkA+Verb
+o+Stem+lé+Verb
+
+!prefix verb mit +Stem+ at the beginning
++Stem+káη+Verb
+

@@ -1,0 +1,80 @@
+Multichar_Symbols +Stem+
+@U.Type.Stative@ @U.Type.Active@ @U.Valency.1@ @U.Valency.2@
+1SG 1DUAL 1PL 2SG 2PL 3SG 3PL 3COLL %:ACT+ %:STA+ AblautA AblautE YA M1
+aη iη uη áη íη úη
+@U.Plural.Present@ @U.Plural.Absent@ @C.Plural@ @R.Plural.Absent@ @R.Plural.Present@
+@U.Animate.Present@
+
+LEXICON Root
++Stem+:0 Pronouns;
+
+!verb stems are marked the same
+LEXICON Pronouns
+@U.Type.Stative@@U.Valency.1@ StativeSubjectPronoun;
+@U.Type.Stative@@U.Valency.1@@U.Animate.Present@ StativeSubjectColl;
+@U.Type.Active@@U.Valency.1@ ActiveSubjectPronoun;
+@U.Valency.2@ ObjectPronoun;
+@U.Valency.2@@U.Animate.Present@ ObjectColl;
+
+
+LEXICON ObjectPronoun
+1SG%:STA+:M1a MarkSgDualObject;
+1DUAL%:STA+:uηK MarkSgDualObject;
+1PL%:STA+:uηK MarkPlObject;
+2SG%:STA+:Ni MarkSgDualObject;
+2PL%:STA+:Ni MarkPlObject;
+3SG%:STA+:0 MarkSgDualObject;
+3PL%:STA+:0 MarkPlObject;
+! no object realized
+ FromObjectGotoSubject;
+
+LEXICON ObjectColl
+3COLL%:STA+:wičha MarkSgDualObject;    !Pl, ohne pi, collective
+
+LEXICON StativeSubjectPronoun
+1SG%:STA+:M1a MarkSgDualSubject;
+1DUAL%:STA+:uηK MarkSgDualSubject;
+1PL%:STA+:uηK MarkPlSubject;
+2SG%:STA+:Ni MarkSgDualSubject;
+2PL%:STA+:Ni MarkPlSubject;
+3SG%:STA+:0 MarkSgDualSubject;
+3PL%:STA+:0 MarkPlSubject;
+!no subject realized
+@U.Plural.Absent@ #;
+
+LEXICON StativeSubjectColl
+3COLL%:STA+:wičha MarkSgDualSubject;
+
+LEXICON ActiveSubjectPronoun
+1SG%:ACT+:Wa MarkSgDualSubject;
+1DUAL%:ACT+:uηK MarkSgDualSubject;
+2SG%:ACT+:YA MarkSgDualSubject;
+3SG%:ACT+:0 MarkSgDualSubject;
+1PL%:ACT+:uηK MarkPlSubject;
+2PL%:ACT+:YA MarkPlSubject;
+3PL%:ACT+:0 MarkPlSubject;
+!no subject realized
+@U.Plural.Absent@ #;
+
+LEXICON MarkSgDualObject
+@U.Plural.Absent@ FromObjectGotoSubject;
+
+LEXICON MarkPlObject
+@U.Plural.Present@ FromObjectGotoSubject;
+!no subject realized
+@U.Plural.Present@ #;
+
+LEXICON FromObjectGotoSubject
+@U.Type.Stative@ StativeSubjectPronoun;
+@U.Type.Active@ ActiveSubjectPronoun;
+
+! Either there is a plural from the object, then it must be kept; or not.
+LEXICON MarkSgDualSubject
+@U.Plural.Absent@ #;
+@R.Plural.Present@ #;
+
+!If there is a U.Plural.Absent from the object, this has to be cleared first
+LEXICON MarkPlSubject
+@C.Plural@@U.Plural.Present@ #;
+
+!read lexc /your/path/class1-personal-pronouns.lexc

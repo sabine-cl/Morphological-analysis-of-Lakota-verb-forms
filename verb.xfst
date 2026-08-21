@@ -1,0 +1,199 @@
+clear stack;
+set show-flags OFF;
+set print-space OFF;
+set flag-is-epsilon ON;
+
+!___DEFINITIONS___
+define UnstressedVowel [a|e|i|o|u];
+define StressedVowel [á|é|í|ó|ú];
+define UnstressedNasal [aη | iη | uη];
+define StressedNasal [áη | íη | úη];
+define Unstressed [UnstressedVowel | UnstressedNasal];
+define Stressed [StressedVowel | StressedNasal];
+define Vowel [UnstressedVowel | StressedVowel | UnstressedNasal | StressedNasal];
+define Consonant [b | c | č | f | g | ǧ | h | ȟ | k | l | m | n | p | r | s | š | t | w | y | z | ž | '];
+
+!___LOAD SEPARATE LEXC FOR PERSONAL PRONOUNS___
+read lexc < /your/path/class1-personal-pronouns.lexc;
+define AllPersonalPronounsClass1;
+
+read lexc < /your/path/class2-personal-pronouns.lexc;
+define AllPersonalPronounsClass2;
+
+read lexc < /your/path/class3-personal-pronouns.lexc;
+define AllPersonalPronounsClass3;
+
+!___FILTER FORBIDDEN PERSONAL PRONOUN COMBINATIONS___
+!1P cannot appear with 1P as object und subject, the same applies to 1Dual, which cannot appear with 1P and 2P
+define Filter1P $[[1SG | 1PL | 1DUAL] ?* [1SG | 1PL | 1DUAL]];
+define Filter2P $[[2SG | 2PL | 1DUAL] ?* [2SG | 2PL | 1DUAL]];
+define ForbiddenPersonalPronouns ~[Filter1P | Filter2P];
+
+!___DEFINE PERSONAL PRONOUNS PER CLASS___
+read regex ForbiddenPersonalPronouns .o. AllPersonalPronounsClass1;
+define AllowedPersonalPronounsClass1;
+
+read regex ForbiddenPersonalPronouns .o. AllPersonalPronounsClass2;
+define AllowedPersonalPronounsClass2;
+
+read regex ForbiddenPersonalPronouns .o. AllPersonalPronounsClass3;
+define AllowedPersonalPronounsClass3;
+
+!___COMBINE VERB LEXC WITH PERSONAL PRONOUN LEXCs____
+read lexc < /your/path/verb.lexc;
+!PersonalPronoun-Netz wird in Verbstämme eingefügt (an Prefix- oder Infix-Position PP)
+substitute defined AllowedPersonalPronounsClass1 for PP1
+substitute defined AllowedPersonalPronounsClass2 for PP2
+substitute defined AllowedPersonalPronounsClass3 for PP3
+
+!___CHANGES ON SURFACE SIDE___
+! change niwa and niMA to chi
+read regex [[N i W a] -> [č h i]];  !Class1
+read regex [[N i MA] -> [č h i]];  !Class3
+read regex [[M1 a N i] -> [N i M1 a]]; !stative transitive class1
+read regex [N -> n, W -> w, MA -> m, M1->m];
+
+!move unK (1PL:STA, 1PL:ACT) before ni (2SG:STA) and ya (2SG:ACT)
+read regex [[n i uη K] -> uη K n i];
+read regex [[YA uη K] -> uη K YA]; !Class2
+read regex [[YA n Y uη K] -> uη K YA n Y];  !Class3
+
+!Move unK in mixed verbs
+read regex [M -> [uη K] || _  ~[?* w i č h a] uη K];
+read regex [[uη K] -> 0|| [uη K] ?* _];
+!remove M if no unK
+read regex [M->0];
+
+
+!change Ablaut to correct form
+read regex [Á -> á || _ ?* AblautA];
+read regex [Á -> é || _ ?* AblautE];
+read regex [A -> e || _ ?* AblautE];
+read regex [A -> a || _ ?* AblautA];
+read regex [Áη -> áη || _ ?* AblautA];
+read regex [Áη -> é || _ ?* AblautE];
+read regex [Aη -> e || _ ?* AblautE];
+read regex [Aη -> aη || _ ?* AblautA];
+read regex [AblautA -> 0, AblautE ->0];
+
+
+!change k to č after i and í
+read regex [k -> č || [i | í] _];
+read regex [%^K -> k];
+
+!Nasalization block by l (marked by Y after l)
+read regex [ áη -> á || Y ? _];
+
+!unK becomes uηk before Vowel, uηk' before Nasal, 'uηK behind Consonant, otherwise uη
+read regex [[uη K] -> [' uη K]|| Consonant _ ];
+
+!change wichaunK to wichunK without '
+read regex [[w i č h a uη K] -> [w i č h uη K]];
+
+read regex [[uη K] -> [uη k] || _ [UnstressedVowel | StressedVowel]];
+read regex [[uη K] -> [uη k '] || _ [UnstressedNasal |StressedNasal]];
+read regex [K -> 0];
+
+!Nasalization spread of uη before ya (but not the pronoun!)
+!to be implemented analogously for yi, yu, hi, hu, wi, wu (Curtis 2014)
+read regex [a -> aη || uη [y|h|w] _];
+read regex [á -> áη || uη [y|h|w] _];
+!change YA to pronoun ya
+read regex [YA -> [y a]];
+!change ^Y to y in words without nasalization spread
+read regex [%^Y -> y];
+
+! delete y after bl and l (marked by Y after bl and l) and after m and n (marked by Y after m and n)
+read regex [ [Y y] -> 0 || [l | m | n] _];
+! delete remaining Y (from class 3)
+read regex [Y -> 0];
+
+!change stress to second syllable if on second syllable in basic form; else keep it on first syllable
+read regex [a -> á || .#. (Consonant*) Unstressed (Consonant*) _];
+read regex [aη -> áη || .#. (Consonant*) Unstressed (Consonant*) _];
+read regex [e -> é || .#. (Consonant*) Unstressed (Consonant*) _];
+read regex [i -> í || .#. (Consonant*) Unstressed (Consonant*) _];  ! nicht bei pi .#. noch einbauen
+read regex [iη -> íη || .#. (Consonant*) Unstressed (Consonant*) _];
+read regex [o -> ó || .#. (Consonant*) Unstressed (Consonant*) _];
+read regex [u -> ú || .#. (Consonant*) Unstressed (Consonant*) _];
+read regex [uη -> úη || .#. (Consonant*) Unstressed (Consonant*) _];
+
+!remove stress from syllable if it stress has moved
+read regex [á -> a || Stressed ?* _];
+read regex [áη -> aη || Stressed ?* _];
+read regex [é -> e || Stressed ?* _];
+read regex [í -> i || Stressed ?* _];
+read regex [íη -> iη || Stressed ?* _];
+read regex [ó -> o || Stressed ?* _];
+read regex [ú -> u || Stressed ?* _];
+read regex [úη -> uη || Stressed ?* _];
+
+turn stack;
+compose net;
+
+
+invert net;
+
+!___CHANGES ON LEXICAL SIDE___
+!in Prefix-Verben wird +Stem+ entfernt
+read regex [%+Stem%+ -> 0 || .#. _];
+
+!move 1PL:ACT (unK) before 2SG:STA, 2PL:STA (ni) and 3SG:STA, 3PL:STA (0)
+read regex [[2SG %:STA%+ 1PL %:ACT%+] -> 1PL %:ACT%+ 2SG %:STA%+];
+read regex [[2PL %:STA%+ 1PL %:ACT%+] -> 1PL %:ACT%+ 2PL %:STA%+];
+read regex [[3SG %:STA%+ 1PL %:ACT%+] -> 1PL %:ACT%+ 3SG %:STA%+];
+read regex [[3PL %:STA%+ 1PL %:ACT%+] -> 1PL %:ACT%+ 3PL %:STA%+];
+
+!move 1SG:ACT (wa) before 2SG:STA, 2PL:STA (ni) and 3SG:STA, 3PL:STA (0)
+read regex [[2SG %:STA%+ 1SG %:ACT%+] -> 1SG %:ACT%+ 2SG %:STA%+];
+read regex [[2PL %:STA%+ 1SG %:ACT%+] -> 1SG %:ACT%+ 2PL %:STA%+];
+read regex [[3SG %:STA%+ 1SG %:ACT%+] -> 1SG %:ACT%+ 3SG %:STA%+];
+read regex [[3PL %:STA%+ 1SG %:ACT%+] -> 1SG %:ACT%+ 3PL %:STA%+];
+
+!move 2SG:ACT, 2PL:ACT (ya) before 3SG:STA, 3PL:STA (0)
+read regex [[3SG %:STA%+ 2SG %:ACT%+] -> 2SG %:ACT%+ 3SG %:STA%+];
+read regex [[3PL %:STA%+ 2SG %:ACT%+] -> 2SG %:ACT%+ 3PL %:STA%+];
+read regex [[3SG %:STA%+ 2PL %:ACT%+] -> 2PL %:ACT%+ 3SG %:STA%+];
+read regex [[3PL %:STA%+ 2PL %:ACT%+] -> 2PL %:ACT%+ 3PL %:STA%+];
+
+!move 2SG:STA (ni) before 1SG:STA (ma)
+read regex [[1SG %:STA%+ 2SG %:STA%+] -> 2SG %:STA%+ 1SG %:STA%+];
+
+!move 1DUAL:ACT (unK) before 3SG:STA, 3PL:STA (0)
+read regex [[3SG %:STA%+ 1DUAL %:ACT%+] -> 1DUAL %:ACT%+ 3SG %:STA%+];
+read regex [[3PL %:STA%+ 1DUAL %:ACT%+] -> 1DUAL %:ACT%+ 3PL %:STA%+];
+
+! move 1DUAL and 1PL in prefix position for mixed verbs (works for Class 2)
+read regex [M -> [1DUAL %:ACT%+] || _ ~[?* 3COLL ?*] 1DUAL %:ACT%+];
+read regex [M -> [1DUAL %:STA%+] || _ ~[?* 3COLL ?*] 1DUAL %:STA%+];
+read regex [M -> [1PL %:ACT%+] || _ ~[?* 3COLL ?*] 1PL %:ACT%+];
+read regex [M -> [1PL %:STA%+] || _ ~[?* 3COLL ?*] 1PL %:STA%+];
+
+
+! delete 1DUAL and 1PL in infix position
+read regex [[1DUAL %:ACT%+] -> 0 || 1DUAL %:ACT%+ ?* _];
+read regex [[1DUAL %:STA%+] -> 0 || 1DUAL %:STA%+ ?* _];
+read regex [[1PL %:ACT%+] -> 0 || 1PL %:ACT%+ ?* _];
+read regex [[1PL %:STA%+] -> 0 || 1PL %:STA%+ ?* _];
+
+! delete +Stem+ if no other PP marker is infixed (works for Class 2)
+!read regex [%+Stem%+ -> 0 || [1DUAL | 1PL | M] ?* _ ? \[%:ACT%+ | %:STA%+]];
+read regex [%+Stem%+ -> 0 || _ ? \[%:ACT%+ | %:STA%+]];
+
+!delete remaining Ms
+read regex [M -> 0];
+
+!change ^K to k on lexical side
+read regex [%^K -> k];
+
+!change ^Y to y on lexical side
+read regex [%^Y -> y];
+
+turn stack;
+compose net;
+invert net;
+
+
+
+
+!source /your/path/verb.xfst

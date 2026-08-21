@@ -1,0 +1,108 @@
+Multichar_Symbols PP1 PP2 PP3 AblautE AblautA AblautIN +Pl ^K ^Y +Verb
+@U.Type.Active@ @U.Type.Stative@ @U.Valency.1@ @U.Valency.2@
+aη iη uη áη íη úη Aη Áη
+@U.Plural.Absent@ @U.Plural.Present@
+@U.Animate.Absent@ @U.Animate.Present@
+
+LEXICON Root
+@U.Animate.Absent@ Class1VerbsInanimate;
+@U.Animate.Present@ Class1VerbsAnimate;
+@U.Animate.Absent@ Class2VerbsInanimate;
+@U.Animate.Present@ Class2VerbsAnimate;
+@U.Animate.Absent@ Class3VerbsInanimate;
+@U.Animate.Present@ Class3VerbsAnimate;
+
+LEXICON Class1VerbsInanimate
+!___Prefix___
+PP1čhéyA MarkActiveIntransitive;
+PP1holAη MarkActiveTransitive; !Fantasy
+!___Infix___
+!
+!___Mixed___
+
+LEXICON Class1VerbsAnimate
+!___Prefix___
+PP1^Káη MarkStativeIntransitive;
+PP1kaȟníǧA MarkActiveTransitive;
+!
+!___Infix___
+slolPP1yÁ MarkActiveTransitive; !'un
+iyéPP1yA MarkActiveTransitive; !Nasalization spread with uη und ni
+naPP1ȟ'úη MarkActiveTransitive;
+íPP1puzA MarkStativeIntransitive;
+íηPP1skokeča MarkStativeTransitive;
+!
+!___Mixed___
+MoPP1lé MarkActiveTransitive;
+MiPP1čháǧA MarkStativeIntransitive;
+
+
+LEXICON Class2VerbsAnimate
+!___Prefix___
+PP2yuhá MarkActiveTransitive;
+PP2yuónihaη MarkActiveTransitive;
+PP2yÁ MarkActiveIntransitive;
+!
+!___Infix___
+waηPP2yáηkA MarkActiveTransitive;
+čhažéPP2^YatA MarkActiveTransitive; !to call sb/sth by name
+!
+!___Mixed___
+MoPP2yákA MarkActiveTransitive; !to report sth/sb
+MaPP2yúštaη MarkActiveTransitive;  !to let sth/sb alone
+
+LEXICON Class2VerbsInanimate
+!___Prefix___
+!
+!___Infix___
+waPP2yúha MarkActiveIntransitive;  !to own property
+!
+!___Mixed___
+
+LEXICON Class3VerbsInanimate
+!___Prefix___
+PP3yaηkÁ MarkActiveIntransitive;
+!___Infix___
+!
+!___Mixed___
+
+LEXICON Class3VerbsAnimate
+!___Prefix___
+PP3úη MarkActiveTransitive;
+!
+!___Infix___
+!
+!___Mixed___
+MiPP3yúηǧA MarkActiveTransitive;
+
+LEXICON MarkActiveIntransitive
+@U.Type.Active@@U.Valency.1@ MarkVerbRoot;
+
+LEXICON MarkStativeIntransitive
+@U.Type.Stative@@U.Valency.1@ MarkVerbRoot;
+
+LEXICON MarkActiveTransitive
+@U.Type.Active@@U.Valency.2@ MarkVerbRoot;
+
+LEXICON MarkStativeTransitive
+@U.Type.Stative@@U.Valency.2@ MarkVerbRoot;
+
+LEXICON MarkVerbRoot
++Verb:0 Number;
+
+LEXICON Number
+@U.Plural.Absent@ NumberSgDual;
+@U.Plural.Present@ NumberPl;
+
+LEXICON NumberSgDual
+0:AblautE #;
+!0:AblautIN #;
+
+LEXICON NumberPl
++Pl:AblautApi #;
+
+
+
+!read lexc /your/path/verb.lexc
+
+

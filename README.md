@@ -65,69 +65,21 @@ apply down i+Stem+3COLL:STA+1SG:ACT+yúηǧA+Verb
 ## DETAILS OF IMPLEMENTATION
 ### Glossing style
 Glossing is not consistent across previous publications. For the present analysis the following rules were chosen:
-<table>
-  <tr style="border-top: 2pt solid black;">
-    <th style="border-bottom: 2pt solid black;">Category</th>
-    <th style="border-bottom: 2pt solid black;">Labels</th>
-    <th style="border-bottom: 2pt solid black;">Example</th>
-  </tr>
-  <tr>
-    <td>Person and number</td>
-    <td>1SG, 1DUAL, 1PL, 2SG, 2PL, 3SG, 3PL, 3COLL</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Active and stative pronouns</td>
-    <td>:ACT , :STA (directly behind Person and number)</td>
-    <td>1SG:ACT, 2PL:STA</td>
-  </tr>
-  <tr>
-    <td>Verb stem</td>
-    <td>Verb (for undivided verb or second part of two-part verb)</td>
-    <td>3PL:STA+káη+Verb+Pl</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Stem (for first part of two-part verb)</td>
-    <td>o+Stem+2SG:STA+lé+Verb</td>
-  </tr>
-  <tr>
-    <td>Plural</td>
-    <td>Pl</td>
-    <td>3PL:STA+káη+Verb+Pl</td>
-  </tr>
-  <tr style="border-bottom: 2pt solid black;">
-    <td>Connector between categories</td>
-    <td>+</td>
-    <td></td>
-  </tr>
-</table>
+<img src="images/glossing-style.png" alt="glossing-style" width="805">
 
 ### verb.lexc 
 This file produces a transducer network of verbs with placeholders PP1, PP2 or PP3 as well as M for personal pronouns, depending on the verb class.
 
 #### Examples
-<img src="images/verb-lexc-example-png.png" alt="verb-lexc-example" width="530">
+<img src="images/verb-lexc-example.png" alt="verb-lexc-example" width="515">
 
 The upper side contains information as to where the persononal pronouns upper side will be inserted, as well as the verb marker and a plural marker if appropriate.
-The lower side contains information as to where the personal pronouns lower side will be inserted as well as information on letters that undergo changes (AblautA, AblautE, ^K, ^Y) and the plural ending pi, if appropriate.
+The lower side contains information as to where the personal pronouns lower side will be inserted as well as information on letters that undergo changes by verb.xfst (AblautA, AblautE, ^K, ^Y) and the plural ending pi, if appropriate.
 
 In addition, the strings contain various diacritic flags, as shown for PP3yaηkÁ+Verb+Pl / PP3yaηkÁAblautApi.
 #### Example with diacritic flags
-<table>
-  <tr>
-    <td colspan="3" style="border-bottom: 2px solid black;"><strong>Upper side</strong></td>
-  </tr>
-  <tr>
-    <td>@U.Animate.Absent@ PP3 y aη k Á @U.Type.Active@ @U.Valency.1@ + V e r b @U.Plural.Present@ +Pl</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">@U.Animate.Absent@ PP3 y aη k Á @U.Type.Active@ @U.Valency.1@ @U.Plural.Present@ AblautA p i</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Lower side</strong></td>
-  </tr>
-</table>
+<img src="images/verb-lexc-example-with-flags.png" alt="verb-lexc-example-with-flags" width="670">
+
 The diacritic flags provide control for using the appropriate sets of personal pronouns for 
 
 - active vs. stative verb type (@U.Type.Active@, @U.Type.Stative@)
@@ -142,44 +94,14 @@ The lexica for the verb stems are divided by verb class for clarity. Division by
 This file produces a transducer network of all possible personal pronoun combinations for class 1 verbs including strings containing no pronouns, one pronoun or two pronouns.
 
 #### Examples with two pronouns
-<table>
-  <tr>
-    <td colspan="3" style="border-bottom: 2px solid black;"><strong>Upper side</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 42px;">+Stem+2SG:STA+1SG:ACT+</td>
-    <td style="padding-right: 42px;">+Stem+3COLL:STA+1DUAL:ACT+</td>
-    <td style="padding-right: 42px;">+Stem+1PL:STA+2PL:ACT+</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">NiWa</td>
-    <td style="border-bottom: 2px solid black;">wičhauηK</td>
-    <td style="border-bottom: 2px solid black;">uηKYA</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Lower side</strong></td>
-  </tr>
-</table>
+<img src="images/two-pronouns-class1-example.png" alt="two-pronouns-class1-example" width="730">
 
-The upper side contains a stem marker and information about person, number and active or stative type of the personal pronouns. The lower side contains the personal pronouns as well as information on letters that undergo changes (N, W, YA, K).
+The upper side contains a stem marker and information about person, number and active or stative type of the personal pronouns. The lower side contains the personal pronouns as well as information on letters that undergo changes by verb.xfst (N, W, YA, K).
 
 In addition, the strings contain various diacritic flags, as shown for +Stem+3SG:STA+2PL:ACT+ / ∅YA
 
 #### Example with diacritic flags
-<table>
-  <tr>
-    <td style="border-bottom: 2px solid black;"><strong>Upper side</strong></td>
-  </tr>
-  <tr>
-    <td>+Stem+ @U.Valency.2@ 3SG :STA+ @U.Plural.Absent@ @U.Type.Active@ 2PL :ACT+ @C.Plural@ @U.Plural.Present@</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">@U.Valency.2@ @U.Plural.Absent@ @U.Type.Active@ YA @C.Plural@ @U.Plural.Present@</td>
-  </tr>
-  <tr>
-    <td><strong>Lower side</strong></td>
-  </tr>
-</table>
+<img src="images/two-pronouns-class1-example-with-flags.png" alt="two-pronouns-class1-example-with-flags" width="780">
 
 The diacritic flags provide control for using the appropriate sets of personal pronouns for the verb stems as described for the verb.lexc file.
 In addition correct plural marking in the case of two personal pronouns with different numbers has to be controlled for (additional @C.Plural@, @R.Plural.Present@)
@@ -189,26 +111,9 @@ This file produces a transducer network of all possible personal pronoun combina
 To account for a number of special personal pronoun combination rules, the continuation classes had to be split up for creation of combined personal pronouns. 
 
 #### Examples
-<table>
-  <tr>
-    <td colspan="3" style="border-bottom: 2px solid black;"><strong>Upper side</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 42px;">+Stem+1SG:STA+2SG:ACT+</td>
-    <td style="padding-right: 42px;">+Stem+3COLL:STA+1SG:ACT+</td>
-    <td style="padding-right: 42px;">+Stem+2PL:ACT+</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">maYAlY</td>
-    <td style="border-bottom: 2px solid black;">wičhablY</td>
-    <td style="border-bottom: 2px solid black;">lY</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Lower side</strong></td>
-  </tr>
-</table>
+<img src="images/two-pronouns-class2-example.png" alt="two-pronouns-class2-example" width="650">
 
-As described for class1-personal-pronouns.lexc, the upper side contains a stem marker and information about person, number and active or stative type of the personal pronouns. The lower side contains the personal pronouns as well as information on letters that undergo changes (N, W, YA, K, Y).
+As described for class1-personal-pronouns.lexc, the upper side contains a stem marker and information about person, number and active or stative type of the personal pronouns. The lower side contains the personal pronouns as well as information on letters that undergo changes by verb.xfst (N, W, YA, K, Y).
 
 Information about flag diacritics given for class1-personal-pronouns.lexc also apply for class2-personal-pronouns.lexc.
 
@@ -217,26 +122,9 @@ This file produces a transducer network of all possible personal pronoun combina
 To account for a number of special personal pronoun combination rules, the continuation classes had to be split up for creation of combined personal pronouns. 
 
 #### Examples
-<table>
-  <tr>
-    <td colspan="3" style="border-bottom: 2px solid black;"><strong>Upper side</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 42px;">+Stem+1SG:STA+2PL:ACT+</td>
-    <td style="padding-right: 42px;">+Stem+1SG:ACT+</td>
-    <td style="padding-right: 42px;">+Stem+2PL:STA+1SG:ACT+</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">maYAnY</td>
-    <td style="border-bottom: 2px solid black;">mY</td>
-    <td style="border-bottom: 2px solid black;">NiMAY</td>
-  </tr>
-  <tr>
-    <td colspan="3"><strong>Lower side</strong></td>
-  </tr>
-</table>
+<img src="images/two-pronouns-class3-example.png" alt="two-pronouns-class3-example" width="630">
 
-As described for class1-personal-pronouns.lexc, the upper side contains a stem marker and information about person, number and active or stative type of the personal pronouns. The lower side contains the personal pronouns as well as information on letters that undergo changes (N, YA, MA, K, Y).
+As described for class1-personal-pronouns.lexc, the upper side contains a stem marker and information about person, number and active or stative type of the personal pronouns. The lower side contains the personal pronouns as well as information on letters that undergo changes by verb.xfst (N, YA, MA, K, Y).
 
 Information about flag diacritics given for class1-personal-pronouns.lexc also apply for class3-personal-pronouns.lexc.
 
@@ -246,108 +134,20 @@ To do this, changes have to be applied to the lower as well as the upper side of
 
 #### Example
 Substituting a personal pronoun (combination) with the placeholder leads to intermediate upper and lower side representations as exemplified in the next table:
-<table>
-  <tr>
-    <td colspan="5" style="border-bottom: 2px solid black;"><strong>Upper side intermediate</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 20px;">MiPP3yúηǧA+Verb+Pl</td>
-    <td style="padding-right: 20px;">+</td>
-    <td style="padding-right: 20px;">+Stem+1SG:STA+2PL:ACT+</td>
-    <td style="padding-right: 20px;">=></td>
-    <td style="padding-right: 20px;">Mi+Stem+1SG:STA+2PL:ACT+yúηǧA+Verb+Pl</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">MiPP3yúηǧAAblautApi</td>
-    <td style="border-bottom: 2px solid black;">+</td>
-    <td style="border-bottom: 2px solid black;">maYAnY</td>
-    <td style="border-bottom: 2px solid black;">=></td>
-    <td style="border-bottom: 2px solid black;">MimaYAnYyúηǧAAblautApi</td>
-  </tr>
-  <tr>
-    <td colspan="5"><strong>Lower side intermediate</strong></td>
-  </tr>
-</table>
+
+<img src="images/xfst-substitution-example.png" alt="xfst-substitution-example" width="790">
 
 The xfst rules change these representations to yield the lexical side and surface representations:
-<table>
-  <tr>
-    <td style="padding-right: 55px; border-bottom: 2px solid black;">lexical side</td>
-    <td style="border-bottom: 2px solid black; text-align: center;">i+Stem+1SG:STA+2PL:ACT+yúηǧA+Verb+Pl</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 1px solid black;"></td>
-    <td style="border-bottom: 1px solid black; text-align: center"><strong>&uarr;</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 55px;">intermediate lexical side</td>
-    <td style="text-align: center;">Mi+Stem+1SG:STA+2PL:ACT+yúηǧA+Verb+Pl</td>
-  </tr>
-  <tr>
-  <td style="border-bottom: 1px solid black; padding-right: 45px;" >intermediate surface side</td>
-    <td style="border-bottom: 1px solid black; text-align: center;">MimaYAnYyúηǧAAblautApi</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="text-align: center;" ><strong>&darr;</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 55px; border-top: 2px solid black;">surface side</td>
-    <td style="border-top: 2px solid black; text-align: center;">imáyanuηǧapi</td>
-  </tr>
-</table>
 
-If a verb is of mixed type and integrates uη(k) this personal pronoun will first be inserted as infix and then moved to prefix position
-<table>
-  <tr>
-    <td colspan="5" style="border-bottom: 2px solid black;"><strong>Upper side intermediate</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 20px;">MiPP3yúηǧA+Verb</td>
-    <td style="padding-right: 20px;">+</td>
-    <td style="padding-right: 20px;">+Stem+1DUAL:STA+3SG:ACT+</td>
-    <td style="padding-right: 20px;">=></td>
-    <td style="padding-right: 20px;">Mi+Stem+1DUAL:STA+3SG:ACT+yúηǧA+Verb</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 2px solid black;">MiPP3yúηǧAAblautE</td>
-    <td style="border-bottom: 2px solid black;">+</td>
-    <td style="border-bottom: 2px solid black;">uηK∅</td>
-    <td style="border-bottom: 2px solid black;">=></td>
-    <td style="border-bottom: 2px solid black;">MiuηKyúηǧAAblautE</td>
-  </tr>
-  <tr>
-    <td colspan="5"><strong>Lower side intermediate</strong></td>
-  </tr>
-</table>
+<img src="images/xfst-lexical-and-surface-representation.png" alt="xfst-lexical-and-surface-representation" width="540">
+
+If a verb is of mixed type and integrates uη(k) this personal pronoun will first be inserted as infix and then moved to prefix position:
+
+<img src="images/xfst-substitution-example-with-unk.png" alt="xfst-substitution-example-with-unk" width="790">
 
 The xfst rules change these representations to yield the lexical side and surface representations:
-<table>
-  <tr>
-    <td style="padding-right: 55px; border-bottom: 2px solid black;">lexical side</td>
-    <td style="border-bottom: 2px solid black; text-align: center;">1DUAL:STA+i+Stem+3SG:ACT+yúηǧA+Verb</td>
-  </tr>
-  <tr>
-    <td style="border-bottom: 1px solid black;"></td>
-    <td style="border-bottom: 1px solid black; text-align: center"><strong>&uarr;</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 55px;">intermediate lexical side</td>
-    <td style="text-align: center;">Mi+Stem+1DUAL:STA+3SG:ACT+yúηǧA+Verb</td>
-  </tr>
-  <tr>
-  <td style="border-bottom: 1px solid black; padding-right: 45px;" >intermediate surface side</td>
-    <td style="border-bottom: 1px solid black; text-align: center;">MiuηKyúηǧAAblautE</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="text-align: center;" ><strong>&darr;</strong></td>
-  </tr>
-  <tr>
-    <td style="padding-right: 55px; border-top: 2px solid black;">surface side</td>
-    <td style="border-top: 2px solid black; text-align: center;">uηkíyuηǧe</td>
-  </tr>
-</table>
+
+<img src="images/xfst-lexical-and-surface-representation-with-unk.png" alt="xfst-lexical-and-surface-representation-with-unk" width="540">
 
 <br>
 

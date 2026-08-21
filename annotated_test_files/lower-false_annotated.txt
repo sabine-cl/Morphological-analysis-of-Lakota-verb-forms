@@ -1,0 +1,61 @@
+!uη vor Vokal
+uηónilepi
+
+!uη nach Konsonant
+slolúηyaηpi
+
+!uηk vor Konsonant
+uηkyákaȟniǧapi
+
+!uηk vor Nasal
+uηkúηpi
+
+!no k->č
+uηníkaȟniǧapi
+
+!wrong k->č
+ničáη
+
+!niwa not čhi
+niwayúonihaη
+čhažéniwayatapi
+
+!class1 with class2 pronouns
+slolblé
+
+!class1 with class3 pronouns
+uηyánkaȟníǧe
+
+!class2 with class1 pronouns
+čhažémayayate
+uηyáyuonihaηpi
+
+!class2 with class3 pronouns
+muhá
+uηyánuha
+
+!class3 with class1 pronouns
+waúη
+iyáuηǧe
+iníunǧe
+
+!class 3 with class 2 pronoun
+iblúηǧe
+ilúηǧe
+
+!pronoun ya wrongly nasalized
+uηyáηkaȟniǧapi
+naúηyaηȟ'uηpi
+
+!wrong ablaut a at end of word
+slolyá
+wičháwakaȟniǧa
+waηláka
+
+!wrong ablaut e before pi-ending
+waηlákepi
+uηyákaȟniǧepi
+
+!no nasalization stop by (b)l
+waηláηkapi
+waηbláηke

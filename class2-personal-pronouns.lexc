@@ -1,0 +1,150 @@
+Multichar_Symbols +Stem+ PP2
+@U.Type.Stative@ @U.Type.Active@ @U.Valency.1@ @U.Valency.2@
+1SG 1DUAL 1PL 2SG 2PL 3SG 3PL 3COLL %:ACT+ %:STA+ AblautA AblautE YA
+@U.MARK.Pl@ @U.MARK.SgDual@
+aη iη uη áη íη úη
+@U.Plural.Present@ @U.Plural.Absent@ @C.Plural@ @R.Plural.Absent@ @R.Plural.Present@
+@P.Person.First@ @R.Person.First@ @P.Person.First@
+
+LEXICON Root
++Stem+:0 Pronouns;
+
+!verb stems are marked the same
+LEXICON Pronouns
+@U.Valency.1@ SingleSubjectPronoun;
+@U.Valency.2@ SingleSubjectPronoun;
+@U.Valency.2@ SingleObjectPronoun;  !also cares for double pronoun case if subject is 3rd person
+@U.Valency.2@ DoublePronounFirstPersonObject;  !takes special pronoun for 2nd person subject
+@U.Valency.2@ DoublePronounSecondPersonObject; !regular behaviour (all class I pronouns)
+@U.Valency.2@ DoublePronounThirdPersonObject;  !takes class II single subject pronoun
+
+
+LEXICON SingleSubjectPronoun
+1SG%:ACT+:blY MarkSgDualSubject;
+1DUAL%:ACT+:uηK MarkSgDualSubject;
+2SG%:ACT+:lY MarkSgDualSubject;
+3SG%:ACT+:0 MarkSgDualSubject;
+1PL%:ACT+:uηK MarkPlSubject;
+2PL%:ACT+:lY MarkPlSubject;
+3PL%:ACT+:0 MarkPlSubject;
+!no subject realized
+@U.Plural.Absent@ #;
+
+LEXICON DoubleSubjectPronoun
+1SG%:ACT+:blY MarkSgDualSubject;
+1DUAL%:ACT+:uηK MarkSgDualSubject;
+2SG%:ACT+:lY MarkSgDualSubject;
+3SG%:ACT+:0 MarkSgDualSubject;
+1PL%:ACT+:uηK MarkPlSubject;
+2PL%:ACT+:lY MarkPlSubject;
+3PL%:ACT+:0 MarkPlSubject;
+
+LEXICON SingleObjectPronoun
+1SG%:STA+:ma MarkSgDualSingleObject;   
+1DUAL%:STA+:uηK MarkSgDualSingleObject;   
+1PL%:STA+:uηK MarkPlSingleObject;
+2SG%:STA+:Ni MarkSgDualSingleObject;
+2PL%:STA+:Ni MarkPlSingleObject;
+3SG%:STA+:0 MarkSgDualSingleObject;
+3PL%:STA+:0 MarkPlSingleObject;    !Pl, individuals
+3COLL%:STA+:wičha MarkSgDualSingleObject;
+
+
+LEXICON DoublePronounFirstPersonObject
+1SG%:STA+:ma MarkSgDoubleFirstPersonObject;   
+1DUAL%:STA+:uηK MarkSgDoubleFirstPersonObject;   
+1PL%:STA+:uηK MarkPlDoubleFirstPersonObject;  
+
+
+LEXICON DoublePronounSecondPersonObject
+2SG%:STA+:Ni MarkSgDualDoubleSecondPersonObject;
+2PL%:STA+:Ni MarkPlDoubleSecondPersonObject;
+
+
+LEXICON DoublePronounThirdPersonObject
+3SG%:STA+:0 MarkSgDoubleThirdPersonObject;
+3PL%:STA+:0 MarkPlDoubleThirdPersonObject;
+3COLL%:STA+:wičha MarkSgDoubleThirdPersonObject;
+
+
+LEXICON DoublePronounRegularSecondPersonSubject
+2SG%:ACT+:YA MarkSgDualSubject;   
+2PL%:ACT+:YA MarkPlSubject; 
+
+
+LEXICON DoublePronounSpecialSecondPersonSubject
+2SG%:ACT+:YAlY MarkSgDualSubject;   !Sg
+2PL%:ACT+:YAlY MarkPlSubject;
+
+
+LEXICON DoublePronounThirdPersonSubject ! needed separately for combination with single object pronouns
+3SG%:ACT+:0 MarkSgDualSubject;
+3PL%:ACT+:0 MarkPlSubject;
+
+
+LEXICON DoublePronounOtherSubject
+1SG%:ACT+:Wa MarkSgDualSubject;
+1DUAL%:ACT+:uηK MarkSgDualSubject;
+1PL%:ACT+:uηK MarkPlSubject;
+3SG%:ACT+:0 MarkSgDualSubject;
+3PL%:ACT+:0 MarkPlSubject;
+  
+
+LEXICON MarkSgDualSingleObject
+@U.Plural.Absent@ #;
+! because in double pronoun case 3rd person subject goes with single object pronoun, this path here
+@U.Plural.Absent@ DoublePronounThirdPersonSubject;
+
+
+LEXICON MarkPlSingleObject
+@U.Plural.Present@ #;
+! because in double pronoun case 3rd person subject goes with single object pronoun, this path here
+@U.Plural.Present@ DoublePronounThirdPersonSubject;
+
+
+LEXICON MarkSgDoubleFirstPersonObject
+@U.Plural.Absent@ DoublePronounSpecialSecondPersonSubject;
+@U.Plural.Absent@ DoublePronounOtherSubject;
+
+
+LEXICON MarkPlDoubleFirstPersonObject
+@U.Plural.Present@ DoublePronounSpecialSecondPersonSubject;
+@U.Plural.Present@ DoublePronounOtherSubject;
+
+
+LEXICON MarkSgDualDoubleSecondPersonObject
+@U.Plural.Absent@ DoublePronounRegularSecondPersonSubject;
+@U.Plural.Absent@ DoublePronounOtherSubject;
+
+
+LEXICON MarkPlDoubleSecondPersonObject
+@U.Plural.Present@ DoublePronounRegularSecondPersonSubject;
+@U.Plural.Present@ DoublePronounOtherSubject;
+
+
+! In double pronoun case with 3rd person object, class II single subject pronouns are used
+LEXICON MarkSgDoubleThirdPersonObject
+@U.Plural.Absent@ DoubleSubjectPronoun;
+
+LEXICON MarkPlDoubleThirdPersonObject
+@U.Plural.Present@ DoubleSubjectPronoun;
+
+
+! Either there is a plural from the object, then it must be kept; or not.
+LEXICON MarkSgDualSubject
+@U.Plural.Absent@ #;
+@R.Plural.Present@ #;
+
+!If there is a U.Plural.Absent from the object, this has to be cleared first
+LEXICON MarkPlSubject
+@C.Plural@@U.Plural.Present@ #;
+
+
+
+
+!read lexc /your/path/class2-personal-pronouns.lexc
+
+
+
+
+
