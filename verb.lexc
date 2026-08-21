@@ -103,6 +103,6 @@ LEXICON NumberPl
 
 
 
-!read lexc /your/path/verb.lexc
+!read lexc /your/path/lakota/verb.lexc
 
 

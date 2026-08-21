@@ -77,4 +77,4 @@ LEXICON MarkSgDualSubject
 LEXICON MarkPlSubject
 @C.Plural@@U.Plural.Present@ #;
 
-!read lexc /your/path/class1-personal-pronouns.lexc
+!read lexc /your/path/lakota/class1-personal-pronouns.lexc

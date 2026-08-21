@@ -14,13 +14,13 @@ define Vowel [UnstressedVowel | StressedVowel | UnstressedNasal | StressedNasal]
 define Consonant [b | c | č | f | g | ǧ | h | ȟ | k | l | m | n | p | r | s | š | t | w | y | z | ž | '];
 
 !___LOAD SEPARATE LEXC FOR PERSONAL PRONOUNS___
-read lexc < /your/path/class1-personal-pronouns.lexc;
+read lexc < /your/path/lakota/class1-personal-pronouns.lexc;
 define AllPersonalPronounsClass1;
 
-read lexc < /your/path/class2-personal-pronouns.lexc;
+read lexc < /your/path/lakota/class2-personal-pronouns.lexc;
 define AllPersonalPronounsClass2;
 
-read lexc < /your/path/class3-personal-pronouns.lexc;
+read lexc < /your/path/lakota/class3-personal-pronouns.lexc;
 define AllPersonalPronounsClass3;
 
 !___FILTER FORBIDDEN PERSONAL PRONOUN COMBINATIONS___
@@ -40,7 +40,7 @@ read regex ForbiddenPersonalPronouns .o. AllPersonalPronounsClass3;
 define AllowedPersonalPronounsClass3;
 
 !___COMBINE VERB LEXC WITH PERSONAL PRONOUN LEXCs____
-read lexc < /your/path/verb.lexc;
+read lexc < /your/path/lakota/verb.lexc;
 !PersonalPronoun-Netz wird in Verbstämme eingefügt (an Prefix- oder Infix-Position PP)
 substitute defined AllowedPersonalPronounsClass1 for PP1
 substitute defined AllowedPersonalPronounsClass2 for PP2
@@ -196,4 +196,4 @@ invert net;
 
 
 
-!source /your/path/verb.xfst
+!source /your/path/lakota/verb.xfst
