@@ -112,7 +112,7 @@ read regex [Y -> 0];
 read regex [a -> á || .#. (Consonant*) Unstressed (Consonant*) _];
 read regex [aη -> áη || .#. (Consonant*) Unstressed (Consonant*) _];
 read regex [e -> é || .#. (Consonant*) Unstressed (Consonant*) _];
-read regex [i -> í || .#. (Consonant*) Unstressed (Consonant*) _];  ! nicht bei pi .#. noch einbauen
+read regex [i -> í || .#. (Consonant*) Unstressed (Consonant*) _];
 read regex [iη -> íη || .#. (Consonant*) Unstressed (Consonant*) _];
 read regex [o -> ó || .#. (Consonant*) Unstressed (Consonant*) _];
 read regex [u -> ú || .#. (Consonant*) Unstressed (Consonant*) _];

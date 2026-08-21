@@ -1,0 +1,696 @@
+!class1 active transitive infix verb 1DUAL:ACT correct infixation
+slol+Stem+1DUAL:ACT+yÁ+Verb
+!class1 active transitive infix verb 1PL:ACT correct infixation
+iyé+Stem+1PL:ACT+yA+Verb+Pl
+!class1 active transitive infix verb 1PL:ACT+2PL:STA correct infixation
+na+Stem+1PL:ACT+2PL:STA+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 1PL:ACT+2SG:STA correct infixation
+na+Stem+1PL:ACT+2SG:STA+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 1PL:ACT+3SG:STA correct infixation
+slol+Stem+1PL:ACT+3SG:STA+yÁ+Verb+Pl
+!class1 active transitive infix verb 1PL:STA+2PL:ACT correct infixation
+na+Stem+1PL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 1PL:STA+2SG:ACT correct infixation
+na+Stem+1PL:STA+2SG:ACT+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 1PL:STA+3SG:ACT correct infixation
+slol+Stem+1PL:STA+3SG:ACT+yÁ+Verb+Pl
+!class1 active transitive infix verb 1SG:ACT correct infixation
+slol+Stem+1SG:ACT+yÁ+Verb
+!class1 active transitive infix verb 1SG:ACT+2PL:STA correct infixation
+na+Stem+1SG:ACT+2PL:STA+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 1SG:ACT+2SG:STA correct infixation
+na+Stem+1SG:ACT+2SG:STA+ȟ'úη+Verb
+!class1 active transitive infix verb 1SG:ACT+3SG:STA correct infixation
+slol+Stem+1SG:ACT+3SG:STA+yÁ+Verb
+!class1 active transitive infix verb 1SG:STA+2PL:ACT correct infixation
+na+Stem+1SG:STA+2PL:ACT+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 1SG:STA+2SG:ACT correct infixation
+na+Stem+1SG:STA+2SG:ACT+ȟ'úη+Verb
+!class1 active transitive infix verb 2PL:ACT+3SG:STA correct infixation
+slol+Stem+2PL:ACT+3SG:STA+yÁ+Verb+Pl
+!class1 active transitive infix verb 2SG:ACT correct infixation
+slol+Stem+2SG:ACT+yÁ+Verb
+!class1 active transitive infix verb 3COLL:STA+1PL:ACT correct infixation
+na+Stem+3COLL:STA+1PL:ACT+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 3COLL:STA+1SG:ACT correct infixation
+na+Stem+3COLL:STA+1SG:ACT+ȟ'úη+Verb
+!class1 active transitive infix verb 3COLL:STA+2PL:ACT correct infixation
+na+Stem+3COLL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+!class1 active transitive infix verb 3COLL:STA+2SG:ACT correct infixation
+na+Stem+3COLL:STA+2SG:ACT+ȟ'úη+Verb
+!class1 active transitive infix verb 3PL:ACT correct infixation
+slol+Stem+3PL:ACT+yÁ+Verb+Pl
+!class1 active transitive infix verb 3SG:ACT correct infixation
+slol+Stem+3SG:ACT+yÁ+Verb
+!class1 active transitive mixed verb 1PL:ACT correct prefixation and  2PL:STA correct infixation
+1PL:ACT+o+Stem+2PL:STA+lé+Verb+Pl
+!class1 active transitive mixed verb 1PL:ACT correct prefixation and  2SG:STA correct infixation
+1PL:ACT+o+Stem+2SG:STA+lé+Verb+Pl
+!class1 active transitive mixed verb 1SG:ACT+2PL:STA correct infixation
+o+Stem+1SG:ACT+2PL:STA+lé+Verb+Pl
+!class1 active transitive mixed verb 1SG:ACT+2SG:STA correct infixation
+o+Stem+1SG:ACT+2SG:STA+lé+Verb
+!class1 active transitive mixed verb 1SG:STA+2PL:ACT correct infixation
+o+Stem+1SG:STA+2PL:ACT+lé+Verb+Pl
+!class1 active transitive mixed verb 1SG:STA+2SG:ACT correct infixation
+o+Stem+1SG:STA+2SG:ACT+lé+Verb
+!class1 active transitive mixed verb 2PL:STA+3SG:ACT correct infixation
+o+Stem+2PL:STA+3SG:ACT+lé+Verb+Pl
+!class1 active transitive mixed verb 2SG:STA+3PL:ACT correct infixation
+o+Stem+2SG:STA+3PL:ACT+lé+Verb+Pl
+!class1 active transitive mixed verb 2SG:STA+3SG:ACT correct infixation
+o+Stem+2SG:STA+3SG:ACT+lé+Verb
+!class1 active transitive mixed verb 3COLL:STA+1DUAL:ACT correct infixation
+o+Stem+3COLL:STA+1DUAL:ACT+lé+Verb
+!class1 active transitive mixed verb 3COLL:STA+1PL:ACT correct infixation
+o+Stem+3COLL:STA+1PL:ACT+lé+Verb+Pl
+!class1 active transitive mixed verb 3COLL:STA+1SG:ACT correct infixation
+o+Stem+3COLL:STA+1SG:ACT+lé+Verb
+!class1 active transitive mixed verb 3COLL:STA+2PL:ACT correct infixation
+o+Stem+3COLL:STA+2PL:ACT+lé+Verb+Pl
+!class1 active transitive mixed verb 3COLL:STA+3PL:ACT correct infixation
+o+Stem+3COLL:STA+3PL:ACT+lé+Verb+Pl
+!class1 active transitive mixed verb 3COLL:STA+3SG:ACT correct infixation
+o+Stem+3COLL:STA+3SG:ACT+lé+Verb
+!class1 active transitive prefix verb 1PL:ACT+2SG:STA correct prefixation
+1PL:ACT+2SG:STA+kaȟníǧA+Verb+Pl
+!class1 active transitive prefix verb 1PL:STA+2SG:ACT correct prefixation
+1PL:STA+2SG:ACT+kaȟníǧA+Verb+Pl
+!class1 active transitive prefix verb 1SG:ACT+2PL:STA correct prefixation
+1SG:ACT+2PL:STA+kaȟníǧA+Verb+Pl
+!class1 active transitive prefix verb 1SG:ACT+2SG:STA correct prefixation
+1SG:ACT+2SG:STA+kaȟníǧA+Verb
+!class1 active transitive prefix verb 1SG:STA+2SG:ACT correct prefixation
+1SG:STA+2SG:ACT+kaȟníǧA+Verb
+!class1 active transitive prefix verb 3COLL:STA+1PL:ACT correct prefixation
+3COLL:STA+1PL:ACT+kaȟníǧA+Verb+Pl
+!class1 active transitive prefix verb 3COLL:STA+1SG:ACT correct prefixation
+3COLL:STA+1SG:ACT+kaȟníǧA+Verb
+!class1 active transitive prefix verb 3COLL:STA+2SG:ACT correct prefixation
+3COLL:STA+2SG:ACT+kaȟníǧA+Verb
+!class1 stative intransitive infix verb 1DUAL:STA correct infixation
+í+Stem+1DUAL:STA+puzA+Verb
+!class1 stative intransitive infix verb 1PL:STA correct infixation
+í+Stem+1PL:STA+puzA+Verb+Pl
+!class1 stative intransitive infix verb 1SG:STA correct infixation
+í+Stem+1SG:STA+puzA+Verb
+!class1 stative intransitive infix verb 2PL:STA correct infixation
+í+Stem+2PL:STA+puzA+Verb+Pl
+!class1 stative intransitive infix verb 2SG:STA correct infixation
+í+Stem+2SG:STA+puzA+Verb
+!class1 stative intransitive infix verb 3COLL:STA correct infixation
+í+Stem+3COLL:STA+puzA+Verb
+!class1 stative intransitive infix verb 3PL:STA correct infixation
+í+Stem+3PL:STA+puzA+Verb+Pl
+!class1 stative intransitive infix verb 3SG:STA correct infixation
+í+Stem+3SG:STA+puzA+Verb
+!class1 stative intransitive mixed verb 1DUAL:STA correct prefixation
+1DUAL:STA+ičháǧA+Verb
+!class1 stative intransitive mixed verb 1PL:STA correct prefixation
+1PL:STA+ičháǧA+Verb+Pl
+!class1 stative intransitive mixed verb 1SG:STA correct infixation
+i+Stem+1SG:STA+čháǧA+Verb
+!class1 stative intransitive mixed verb 2PL:STA correct infixation
+i+Stem+2PL:STA+čháǧA+Verb+Pl
+!class1 stative intransitive mixed verb 2SG:STA correct infixation
+i+Stem+2SG:STA+čháǧA+Verb
+!class1 stative intransitive mixed verb 3COLL:STA correct infixation
+i+Stem+3COLL:STA+čháǧA+Verb
+!class1 stative intransitive mixed verb 3PL:STA correct infixation
+i+Stem+3PL:STA+čháǧA+Verb+Pl
+!class1 stative intransitive mixed verb 3SG:STA correct infixation
+i+Stem+3SG:STA+čháǧA+Verb
+!class1 stative intransitive prefix verb 1SG:STA correct prefixation
+1SG:STA+káη+Verb
+!class1 stative intransitive prefix verb 2SG:STA correct prefixation
+2SG:STA+káη+Verb
+!class1 stative intransitive prefix verb 3PL:STA correct prefixation
+3PL:STA+káη+Verb+Pl
+!class1 stative intransitive prefix verb 3SG:STA correct prefixation
+3SG:STA+káη+Verb
+!class1 stative transitive infix verb 2SG:STA+1SG:STA correct infixation in object-subject order
+íη+Stem+2SG:STA+1SG:STA+skokeča+Verb
+!class1 stative transitive infix verb 3COLL:STA+3PL:STA correct infixation in object-subject order
+íη+Stem+3COLL:STA+3PL:STA+skokeča+Verb+Pl
+!class2 active intransitive prefix verb 1SG:ACT correct prefixation
+1SG:ACT+yÁ+Verb
+!class2 active transitive infix verb 1DUAL:ACT correct infixation
+waη+Stem+1DUAL:ACT+yáηkA+Verb
+!class2 active transitive infix verb 1PL:ACT correct infixation
+waη+Stem+1PL:ACT+yáηkA+Verb+Pl
+!class2 active transitive infix verb 1PL:ACT+2PL:STA correct infixation
+čhažé+Stem+1PL:ACT+2PL:STA+yatA+Verb+Pl
+!class2 active transitive infix verb 1PL:ACT+2SG:STA correct infixation
+čhažé+Stem+1PL:ACT+2SG:STA+yatA+Verb+Pl
+!class2 active transitive infix verb 1PL:STA+2PL:ACT correct infixation
+čhažé+Stem+1PL:STA+2PL:ACT+yatA+Verb+Pl
+!class2 active transitive infix verb 1PL:STA+2SG:ACT correct infixation
+čhažé+Stem+1PL:STA+2SG:ACT+yatA+Verb+Pl
+!class2 active transitive infix verb 1SG:ACT correct infixation
+waη+Stem+1SG:ACT+yáηkA+Verb
+!class2 active transitive infix verb 1SG:ACT+2PL:STA correct infixation
+čhažé+Stem+1SG:ACT+2PL:STA+yatA+Verb+Pl
+!class2 active transitive infix verb 1SG:ACT+2SG:STA correct infixation
+čhažé+Stem+1SG:ACT+2SG:STA+yatA+Verb
+!class2 active transitive infix verb 1SG:STA+2PL:ACT correct infixation
+čhažé+Stem+1SG:STA+2PL:ACT+yatA+Verb+Pl
+!class2 active transitive infix verb 1SG:STA+2SG:ACT correct infixation
+čhažé+Stem+1SG:STA+2SG:ACT+yatA+Verb
+!class2 active transitive infix verb 2PL:ACT correct infixation
+waη+Stem+2PL:ACT+yáηkA+Verb+Pl
+!class2 active transitive infix verb 2SG:ACT correct infixation
+waη+Stem+2SG:ACT+yáηkA+Verb
+!class2 active transitive infix verb 3COLL:STA+1PL:ACT correct infixation
+čhažé+Stem+3COLL:STA+1PL:ACT+yatA+Verb+Pl
+!class2 active transitive infix verb 3COLL:STA+1SG:ACT correct infixation
+čhažé+Stem+3COLL:STA+1SG:ACT+yatA+Verb
+!class2 active transitive infix verb 3COLL:STA+2PL:ACT correct infixation
+čhažé+Stem+3COLL:STA+2PL:ACT+yatA+Verb+Pl
+!class2 active transitive infix verb 3COLL:STA+2SG:ACT correct infixation
+čhažé+Stem+3COLL:STA+2SG:ACT+yatA+Verb
+!class2 active transitive infix verb 3PL:ACT correct infixation
+waη+Stem+3PL:ACT+yáηkA+Verb+Pl
+!class2 active transitive infix verb 3SG:ACT correct infixation
+waη+Stem+3SG:ACT+yáηkA+Verb
+!class2 active transitive mixed verb 1DUAL:ACT correct prefixation
+1DUAL:ACT+oyákA+Verb
+!class2 active transitive mixed verb 1PL:ACT correct prefixation
+1PL:ACT+oyákA+Verb+Pl
+!class2 active transitive mixed verb 1PL:ACT correct prefixation and  2PL:STA correct infixation
+1PL:ACT+a+Stem+2PL:STA+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 1PL:ACT correct prefixation and  2SG:STA correct infixation
+1PL:ACT+a+Stem+2SG:STA+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 1PL:STA correct prefixation and  2PL:ACT correct infixation
+1PL:STA+a+Stem+2PL:ACT+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 1PL:STA correct prefixation and 2SG:ACT correct infixation
+1PL:STA+a+Stem+2SG:ACT+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 1SG:ACT correct infixation
+o+Stem+1SG:ACT+yákA+Verb
+!class2 active transitive mixed verb 1SG:ACT+2PL:STA correct infixation
+a+Stem+1SG:ACT+2PL:STA+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 1SG:ACT+2SG:STA correct infixation
+a+Stem+1SG:ACT+2SG:STA+yúštaη+Verb
+!class2 active transitive mixed verb 1SG:STA+2PL:ACT correct infixation
+a+Stem+1SG:STA+2PL:ACT+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 1SG:STA+2SG:ACT correct infixation
+a+Stem+1SG:STA+2SG:ACT+yúštaη+Verb
+!class2 active transitive mixed verb 2PL:ACT correct infixation
+o+Stem+2PL:ACT+yákA+Verb+Pl
+!class2 active transitive mixed verb 2SG:ACT correct infixation
+o+Stem+2SG:ACT+yákA+Verb
+!class2 active transitive mixed verb 3COLL:STA+1PL:ACT correct infixation
+a+Stem+3COLL:STA+1PL:ACT+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 3COLL:STA+1SG:ACT correct infixation
+a+Stem+3COLL:STA+1SG:ACT+yúštaη+Verb
+!class2 active transitive mixed verb 3COLL:STA+2PL:ACT correct infixation
+a+Stem+3COLL:STA+2PL:ACT+yúštaη+Verb+Pl
+!class2 active transitive mixed verb 3COLL:STA+2SG:ACT correct infixation
+a+Stem+3COLL:STA+2SG:ACT+yúštaη+Verb
+!class2 active transitive mixed verb 3PL:ACT correct infixation
+o+Stem+3PL:ACT+yákA+Verb+Pl
+!class2 active transitive mixed verb 3SG:ACT correct infixation
+o+Stem+3SG:ACT+yákA+Verb
+!class2 active transitive prefix verb 1DUAL:ACT correct prefixation
+1DUAL:ACT+yuhá+Verb
+!class2 active transitive prefix verb 1PL:ACT correct prefixation
+1PL:ACT+yuhá+Verb+Pl
+!class2 active transitive prefix verb 1PL:ACT+2PL:STA correct prefixation
+1PL:ACT+2PL:STA+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 1PL:ACT+2SG:STA correct prefixation
+1PL:ACT+2SG:STA+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 1PL:STA+2PL:ACT correct prefixation
+1PL:STA+2PL:ACT+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 1PL:STA+2SG:ACT correct prefixation
+1PL:STA+2SG:ACT+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 1SG:ACT+2PL:STA correct prefixation
+1SG:ACT+2PL:STA+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 1SG:ACT+2SG:STA correct prefixation
+1SG:ACT+2SG:STA+yuónihaη+Verb
+!class2 active transitive prefix verb 1SG:STA+2PL:ACT correct prefixation
+1SG:STA+2PL:ACT+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 1SG:STA+2SG:ACT correct prefixation
+1SG:STA+2SG:ACT+yuónihaη+Verb
+!class2 active transitive prefix verb 2PL:ACT correct prefixation
+2PL:ACT+yuhá+Verb+Pl
+!class2 active transitive prefix verb 2SG:ACT correct prefixation
+2SG:ACT+yuhá+Verb
+!class2 active transitive prefix verb 3COLL:STA+1PL:ACT correct prefixation
+3COLL:STA+1PL:ACT+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 3COLL:STA+1SG:ACT correct prefixation
+3COLL:STA+1SG:ACT+yuónihaη+Verb
+!class2 active transitive prefix verb 3COLL:STA+2PL:ACT correct prefixation
+3COLL:STA+2PL:ACT+yuónihaη+Verb+Pl
+!class2 active transitive prefix verb 3COLL:STA+2SG:ACT correct prefixation
+3COLL:STA+2SG:ACT+yuónihaη+Verb
+!class2 active transitive prefix verb 3PL:ACT correct prefixation
+1SG:ACT+yuhá+Verb
+3PL:ACT+yuhá+Verb+Pl
+!class2 active transitive prefix verb 3SG:ACT correct prefixation
+3SG:ACT+yuhá+Verb
+!class3 active intransitive prefix verb 1DUAL:ACT correct prefixation
+1DUAL:ACT+yaηkÁ+Verb
+!class3 active intransitive prefix verb 1PL:ACT correct prefixation
+1PL:ACT+yaηkÁ+Verb+Pl
+!class3 active intransitive prefix verb 1SG:ACT correct prefixation
+1SG:ACT+yaηkÁ+Verb
+!class3 active intransitive prefix verb 2PL:ACT correct prefixation
+2PL:ACT+yaηkÁ+Verb+Pl
+!class3 active intransitive prefix verb 2SG:ACT correct prefixation
+2SG:ACT+yaηkÁ+Verb
+!class3 active intransitive prefix verb 3PL:ACT correct prefixation
+3PL:ACT+yaηkÁ+Verb+Pl
+!class3 active intransitive prefix verb 3SG:ACT correct prefixation
+3SG:ACT+yaηkÁ+Verb
+!class3 active transitive mixed verb 1DUAL:ACT correct infixation
+1DUAL:ACT+iyúηǧA+Verb
+!class3 active transitive mixed verb 1PL:ACT correct prefixation
+1PL:ACT+iyúηǧA+Verb+Pl
+!class3 active transitive mixed verb 1PL:STA correct prefixation and 2SG:ACT correct infixation
+1PL:STA+i+Stem+2SG:ACT+yúηǧA+Verb+Pl
+!class3 active transitive mixed verb 1SG:ACT correct infixation
+i+Stem+1SG:ACT+yúηǧA+Verb
+!class3 active transitive mixed verb 1SG:ACT+2PL:STA correct infixation
+i+Stem+1SG:ACT+2PL:STA+yúηǧA+Verb+Pl
+!class3 active transitive mixed verb 1SG:STA+3SG:ACT correct infixation
+i+Stem+1SG:STA+3SG:ACT+yúηǧA+Verb
+i+Stem+3COLL:STA+1PL:ACT+yúηǧA+Verb+Pl
+!class3 active transitive mixed verb 2PL:ACT correct infixation
+i+Stem+2PL:ACT+yúηǧA+Verb+Pl
+!class3 active transitive mixed verb 2SG:ACT correct infixation
+i+Stem+2SG:ACT+yúηǧA+Verb
+!class3 active transitive mixed verb 3COLL:STA+1SG:ACT correct infixation
+i+Stem+3COLL:STA+1SG:ACT+yúηǧA+Verb
+!class3 active transitive mixed verb 3PL:ACT correct infixation
+i+Stem+3PL:ACT+yúηǧA+Verb+Pl
+!class3 active transitive mixed verb 3SG:ACT correct infixation
+i+Stem+3SG:ACT+yúηǧA+Verb
+!class3 active transitive prefix verb 1DUAL:ACT correct prefixation
+1DUAL:ACT+úη+Verb
+!class3 active transitive prefix verb 1PL:ACT correct prefixation
+1PL:ACT+úη+Verb+Pl
+!class3 active transitive prefix verb 1PL:STA+2SG:ACT correct prefixation
+1PL:STA+2SG:ACT+úη+Verb+Pl
+!class3 active transitive prefix verb 1SG:ACT+2PL:STA correct prefixation
+1SG:ACT+2PL:STA+úη+Verb+Pl
+!class3 active transitive prefix verb 1SG:STA+3SG:ACT correct prefixation
+1SG:STA+3SG:ACT+úη+Verb
+!class3 active transitive prefix verb 2PL:ACT correct prefixation
+2PL:ACT+úη+Verb+Pl
+!class3 active transitive prefix verb 2SG:ACT correct prefixation
+2SG:ACT+úη+Verb
+!class3 active transitive prefix verb 3COLL:STA+1PL:ACT correct prefixation
+3COLL:STA+1PL:ACT+úη+Verb+Pl
+!class3 active transitive prefix verb 3COLL:STA+1SG:ACT correct prefixation
+3COLL:STA+1SG:ACT+úη+Verb
+!class3 active transitive prefix verb 3PL:ACT correct prefixation
+1SG:ACT+úη+Verb
+3PL:ACT+úη+Verb+Pl
+!class3 active transitive prefix verb 3SG:ACT correct prefixation
+3SG:ACT+úη+Verb
+!correct Ablaut a
+slol+Stem+1PL:ACT+3SG:STA+yÁ+Verb+Pl
+slol+Stem+1PL:STA+3SG:ACT+yÁ+Verb+Pl
+slol+Stem+2PL:ACT+3SG:STA+yÁ+Verb+Pl
+slol+Stem+3PL:ACT+yÁ+Verb+Pl
+1PL:STA+2SG:ACT+kaȟníǧA+Verb+Pl
+1PL:ACT+2SG:STA+kaȟníǧA+Verb+Pl
+3COLL:STA+1PL:ACT+kaȟníǧA+Verb+Pl
+1PL:STA+ičháǧA+Verb+Pl
+i+Stem+2PL:STA+čháǧA+Verb+Pl
+i+Stem+3PL:STA+čháǧA+Verb+Pl
+í+Stem+1PL:STA+puzA+Verb+Pl
+í+Stem+2PL:STA+puzA+Verb+Pl
+í+Stem+3PL:STA+puzA+Verb+Pl
+iyé+Stem+1PL:ACT+yA+Verb+Pl
+waη+Stem+1PL:ACT+yáηkA+Verb+Pl
+waη+Stem+2PL:ACT+yáηkA+Verb+Pl
+waη+Stem+3PL:ACT+yáηkA+Verb+Pl
+čhažé+Stem+1SG:ACT+2PL:STA+yatA+Verb+Pl
+čhažé+Stem+1PL:STA+2SG:ACT+yatA+Verb+Pl
+čhažé+Stem+1PL:ACT+2SG:STA+yatA+Verb+Pl
+čhažé+Stem+1PL:ACT+2PL:STA+yatA+Verb+Pl
+čhažé+Stem+3COLL:STA+1PL:ACT+yatA+Verb+Pl
+čhažé+Stem+1SG:STA+2PL:ACT+yatA+Verb+Pl
+čhažé+Stem+1PL:STA+2PL:ACT+yatA+Verb+Pl
+čhažé+Stem+3COLL:STA+2PL:ACT+yatA+Verb+Pl
+1PL:ACT+oyákA+Verb+Pl
+o+Stem+2PL:ACT+yákA+Verb+Pl
+o+Stem+3PL:ACT+yákA+Verb+Pl
+1PL:ACT+yaηkÁ+Verb+Pl
+2PL:ACT+yaηkÁ+Verb+Pl
+3PL:ACT+yaηkÁ+Verb+Pl
+1PL:ACT+iyúηǧA+Verb+Pl
+i+Stem+2PL:ACT+yúηǧA+Verb+Pl
+i+Stem+3PL:ACT+yúηǧA+Verb+Pl
+i+Stem+1SG:ACT+2PL:STA+yúηǧA+Verb+Pl
+1PL:STA+i+Stem+2SG:ACT+yúηǧA+Verb+Pl
+i+Stem+3COLL:STA+1PL:ACT+yúηǧA+Verb+Pl
+!correct Ablaut e
+slol+Stem+1SG:ACT+yÁ+Verb
+slol+Stem+1SG:ACT+3SG:STA+yÁ+Verb
+slol+Stem+2SG:ACT+yÁ+Verb
+slol+Stem+3SG:ACT+yÁ+Verb
+slol+Stem+1DUAL:ACT+yÁ+Verb
+1SG:ACT+2SG:STA+kaȟníǧA+Verb
+1SG:ACT+2PL:STA+kaȟníǧA+Verb+Pl
+3COLL:STA+1SG:ACT+kaȟníǧA+Verb
+1SG:STA+2SG:ACT+kaȟníǧA+Verb
+3COLL:STA+2SG:ACT+kaȟníǧA+Verb
+i+Stem+1SG:STA+čháǧA+Verb
+i+Stem+2SG:STA+čháǧA+Verb
+i+Stem+3SG:STA+čháǧA+Verb
+1DUAL:STA+ičháǧA+Verb
+i+Stem+3COLL:STA+čháǧA+Verb
+í+Stem+1SG:STA+puzA+Verb
+í+Stem+2SG:STA+puzA+Verb
+í+Stem+3SG:STA+puzA+Verb
+í+Stem+1DUAL:STA+puzA+Verb
+í+Stem+3COLL:STA+puzA+Verb
+waη+Stem+1SG:ACT+yáηkA+Verb
+waη+Stem+2SG:ACT+yáηkA+Verb
+waη+Stem+3SG:ACT+yáηkA+Verb
+waη+Stem+1DUAL:ACT+yáηkA+Verb
+čhažé+Stem+1SG:ACT+2SG:STA+yatA+Verb
+čhažé+Stem+3COLL:STA+1SG:ACT+yatA+Verb
+čhažé+Stem+1SG:STA+2SG:ACT+yatA+Verb
+čhažé+Stem+3COLL:STA+2SG:ACT+yatA+Verb
+o+Stem+1SG:ACT+yákA+Verb
+o+Stem+2SG:ACT+yákA+Verb
+o+Stem+3SG:ACT+yákA+Verb
+1DUAL:ACT+oyákA+Verb
+1SG:ACT+yÁ+Verb
+1SG:ACT+yaηkÁ+Verb
+1DUAL:ACT+yaηkÁ+Verb
+2SG:ACT+yaηkÁ+Verb
+3SG:ACT+yaηkÁ+Verb
+i+Stem+1SG:ACT+yúηǧA+Verb
+1DUAL:ACT+iyúηǧA+Verb
+i+Stem+2SG:ACT+yúηǧA+Verb
+i+Stem+3SG:ACT+yúηǧA+Verb
+i+Stem+1SG:STA+3SG:ACT+yúηǧA+Verb
+i+Stem+3COLL:STA+1SG:ACT+yúηǧA+Verb
+!correct NiMA -> čhi
+1SG:ACT+2PL:STA+úη+Verb+Pl
+i+Stem+1SG:ACT+2PL:STA+yúηǧA+Verb+Pl
+!correct NiWa -> čhi
+o+Stem+1SG:ACT+2SG:STA+lé+Verb
+o+Stem+1SG:ACT+2PL:STA+lé+Verb+Pl
+1SG:ACT+2SG:STA+kaȟníǧA+Verb
+1SG:ACT+2PL:STA+kaȟníǧA+Verb+Pl
+na+Stem+1SG:ACT+2SG:STA+ȟ'úη+Verb
+na+Stem+1SG:ACT+2PL:STA+ȟ'úη+Verb+Pl
+1SG:ACT+2SG:STA+yuónihaη+Verb
+1SG:ACT+2PL:STA+yuónihaη+Verb+Pl
+čhažé+Stem+1SG:ACT+2SG:STA+yatA+Verb
+čhažé+Stem+1SG:ACT+2PL:STA+yatA+Verb+Pl
+a+Stem+1SG:ACT+2SG:STA+yúštaη+Verb
+a+Stem+1SG:ACT+2PL:STA+yúštaη+Verb+Pl
+!correct Plural
+slol+Stem+1PL:ACT+3SG:STA+yÁ+Verb+Pl
+slol+Stem+1PL:STA+3SG:ACT+yÁ+Verb+Pl
+slol+Stem+2PL:ACT+3SG:STA+yÁ+Verb+Pl
+slol+Stem+3PL:ACT+yÁ+Verb+Pl
+o+Stem+3COLL:STA+2PL:ACT+lé+Verb+Pl
+o+Stem+3COLL:STA+3PL:ACT+lé+Verb+Pl
+o+Stem+3COLL:STA+1PL:ACT+lé+Verb+Pl
+o+Stem+1SG:ACT+2PL:STA+lé+Verb+Pl
+o+Stem+2SG:STA+3PL:ACT+lé+Verb+Pl
+o+Stem+2PL:STA+3SG:ACT+lé+Verb+Pl
+1PL:ACT+o+Stem+2SG:STA+lé+Verb+Pl
+1PL:ACT+o+Stem+2PL:STA+lé+Verb+Pl
+o+Stem+1SG:STA+2PL:ACT+lé+Verb+Pl
+1SG:ACT+2PL:STA+kaȟníǧA+Verb+Pl
+1PL:STA+2SG:ACT+kaȟníǧA+Verb+Pl
+1PL:ACT+2SG:STA+kaȟníǧA+Verb+Pl
+3COLL:STA+1PL:ACT+kaȟníǧA+Verb+Pl
+3PL:STA+káη+Verb+Pl
+na+Stem+1SG:ACT+2PL:STA+ȟ'úη+Verb+Pl
+na+Stem+1PL:STA+2SG:ACT+ȟ'úη+Verb+Pl
+na+Stem+1PL:ACT+2SG:STA+ȟ'úη+Verb+Pl
+na+Stem+1PL:ACT+2PL:STA+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+1PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+1SG:STA+2PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+1PL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+1PL:STA+ičháǧA+Verb+Pl
+i+Stem+2PL:STA+čháǧA+Verb+Pl
+i+Stem+3PL:STA+čháǧA+Verb+Pl
+í+Stem+1PL:STA+puzA+Verb+Pl
+í+Stem+2PL:STA+puzA+Verb+Pl
+í+Stem+3PL:STA+puzA+Verb+Pl
+iyé+Stem+1PL:ACT+yA+Verb+Pl
+1PL:ACT+yuhá+Verb+Pl
+2PL:ACT+yuhá+Verb+Pl
+3PL:ACT+yuhá+Verb+Pl
+waη+Stem+1PL:ACT+yáηkA+Verb+Pl
+waη+Stem+2PL:ACT+yáηkA+Verb+Pl
+waη+Stem+3PL:ACT+yáηkA+Verb+Pl
+1SG:ACT+2PL:STA+yuónihaη+Verb+Pl
+1PL:ACT+2SG:STA+yuónihaη+Verb+Pl
+1PL:ACT+2PL:STA+yuónihaη+Verb+Pl
+3COLL:STA+1PL:ACT+yuónihaη+Verb+Pl
+1SG:STA+2PL:ACT+yuónihaη+Verb+Pl
+1PL:STA+2PL:ACT+yuónihaη+Verb+Pl
+3COLL:STA+2PL:ACT+yuónihaη+Verb+Pl
+čhažé+Stem+1SG:ACT+2PL:STA+yatA+Verb+Pl
+čhažé+Stem+1PL:STA+2SG:ACT+yatA+Verb+Pl
+čhažé+Stem+1PL:ACT+2SG:STA+yatA+Verb+Pl
+čhažé+Stem+1PL:ACT+2PL:STA+yatA+Verb+Pl
+čhažé+Stem+3COLL:STA+1PL:ACT+yatA+Verb+Pl
+čhažé+Stem+1SG:STA+2PL:ACT+yatA+Verb+Pl
+čhažé+Stem+1PL:STA+2PL:ACT+yatA+Verb+Pl
+čhažé+Stem+3COLL:STA+2PL:ACT+yatA+Verb+Pl
+1PL:ACT+oyákA+Verb+Pl
+o+Stem+2PL:ACT+yákA+Verb+Pl
+o+Stem+3PL:ACT+yákA+Verb+Pl
+a+Stem+1SG:ACT+2PL:STA+yúštaη+Verb+Pl
+1PL:STA+a+Stem+2SG:ACT+yúštaη+Verb+Pl
+1PL:ACT+a+Stem+2SG:STA+yúštaη+Verb+Pl
+1PL:ACT+a+Stem+2PL:STA+yúštaη+Verb+Pl
+a+Stem+3COLL:STA+1PL:ACT+yúštaη+Verb+Pl
+a+Stem+1SG:STA+2PL:ACT+yúštaη+Verb+Pl
+1PL:STA+a+Stem+2PL:ACT+yúštaη+Verb+Pl
+a+Stem+3COLL:STA+2PL:ACT+yúštaη+Verb+Pl
+1PL:ACT+yaηkÁ+Verb+Pl
+2PL:ACT+yaηkÁ+Verb+Pl
+3PL:ACT+yaηkÁ+Verb+Pl
+1PL:ACT+úη+Verb+Pl
+2PL:ACT+úη+Verb+Pl
+3PL:ACT+úη+Verb+Pl
+1SG:ACT+2PL:STA+úη+Verb+Pl
+1PL:STA+2SG:ACT+úη+Verb+Pl
+3COLL:STA+1PL:ACT+úη+Verb+Pl
+1PL:ACT+iyúηǧA+Verb+Pl
+i+Stem+2PL:ACT+yúηǧA+Verb+Pl
+i+Stem+3PL:ACT+yúηǧA+Verb+Pl
+i+Stem+1SG:ACT+2PL:STA+yúηǧA+Verb+Pl
+1PL:STA+i+Stem+2SG:ACT+yúηǧA+Verb+Pl
+i+Stem+3COLL:STA+1PL:ACT+yúηǧA+Verb+Pl
+!correct k->č
+1SG:ACT+2SG:STA+kaȟníǧA+Verb
+1SG:ACT+2PL:STA+kaȟníǧA+Verb+Pl
+1PL:ACT+2SG:STA+kaȟníǧA+Verb+Pl
+!correct keeping of k
+2SG:STA+káη+Verb
+!correct nasalization block
+waη+Stem+1SG:ACT+yáηkA+Verb
+waη+Stem+2SG:ACT+yáηkA+Verb
+waη+Stem+2PL:ACT+yáηkA+Verb+Pl
+!correct nasalization spread
+iyé+Stem+1PL:ACT+yA+Verb+Pl
+!correct stress shift to second syllable
+slol+Stem+1SG:ACT+yÁ+Verb
+slol+Stem+1SG:ACT+3SG:STA+yÁ+Verb
+slol+Stem+2SG:ACT+yÁ+Verb
+slol+Stem+1DUAL:ACT+yÁ+Verb
+slol+Stem+1PL:ACT+3SG:STA+yÁ+Verb+Pl
+slol+Stem+1PL:STA+3SG:ACT+yÁ+Verb+Pl
+slol+Stem+2PL:ACT+3SG:STA+yÁ+Verb+Pl
+o+Stem+3COLL:STA+1SG:ACT+lé+Verb
+o+Stem+3COLL:STA+3SG:ACT+lé+Verb
+o+Stem+3COLL:STA+1DUAL:ACT+lé+Verb
+o+Stem+1SG:ACT+2SG:STA+lé+Verb
+o+Stem+2SG:STA+3SG:ACT+lé+Verb
+o+Stem+1SG:STA+2SG:ACT+lé+Verb
+o+Stem+3COLL:STA+2PL:ACT+lé+Verb+Pl
+o+Stem+3COLL:STA+3PL:ACT+lé+Verb+Pl
+o+Stem+3COLL:STA+1PL:ACT+lé+Verb+Pl
+o+Stem+1SG:ACT+2PL:STA+lé+Verb+Pl
+o+Stem+2SG:STA+3PL:ACT+lé+Verb+Pl
+o+Stem+2PL:STA+3SG:ACT+lé+Verb+Pl
+1PL:ACT+o+Stem+2SG:STA+lé+Verb+Pl
+1PL:ACT+o+Stem+2PL:STA+lé+Verb+Pl
+o+Stem+1SG:STA+2PL:ACT+lé+Verb+Pl
+1SG:ACT+2SG:STA+kaȟníǧA+Verb
+1SG:ACT+2PL:STA+kaȟníǧA+Verb+Pl
+3COLL:STA+1SG:ACT+kaȟníǧA+Verb
+1SG:STA+2SG:ACT+kaȟníǧA+Verb
+1PL:STA+2SG:ACT+kaȟníǧA+Verb+Pl
+3COLL:STA+2SG:ACT+kaȟníǧA+Verb
+1PL:ACT+2SG:STA+kaȟníǧA+Verb+Pl
+3COLL:STA+1PL:ACT+kaȟníǧA+Verb+Pl
+na+Stem+1SG:ACT+2SG:STA+ȟ'úη+Verb
+na+Stem+1SG:ACT+2PL:STA+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+1SG:ACT+ȟ'úη+Verb
+na+Stem+1SG:STA+2SG:ACT+ȟ'úη+Verb
+na+Stem+1PL:STA+2SG:ACT+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+2SG:ACT+ȟ'úη+Verb
+na+Stem+1PL:ACT+2SG:STA+ȟ'úη+Verb+Pl
+na+Stem+1PL:ACT+2PL:STA+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+1PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+1SG:STA+2PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+1PL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+i+Stem+1SG:STA+čháǧA+Verb
+i+Stem+2SG:STA+čháǧA+Verb
+1DUAL:STA+ičháǧA+Verb
+1PL:STA+ičháǧA+Verb+Pl
+i+Stem+2PL:STA+čháǧA+Verb+Pl
+i+Stem+3PL:STA+čháǧA+Verb+Pl
+i+Stem+3COLL:STA+čháǧA+Verb
+1DUAL:ACT+yuhá+Verb
+1PL:ACT+yuhá+Verb+Pl
+waη+Stem+1DUAL:ACT+yáηkA+Verb
+waη+Stem+1PL:ACT+yáηkA+Verb+Pl
+1SG:ACT+2SG:STA+yuónihaη+Verb
+1SG:ACT+2PL:STA+yuónihaη+Verb+Pl
+3COLL:STA+1SG:ACT+yuónihaη+Verb
+1SG:STA+2SG:ACT+yuónihaη+Verb
+1PL:STA+2SG:ACT+yuónihaη+Verb+Pl
+3COLL:STA+2SG:ACT+yuónihaη+Verb
+1PL:ACT+2SG:STA+yuónihaη+Verb+Pl
+1PL:ACT+2PL:STA+yuónihaη+Verb+Pl
+3COLL:STA+1PL:ACT+yuónihaη+Verb+Pl
+1SG:STA+2PL:ACT+yuónihaη+Verb+Pl
+1PL:STA+2PL:ACT+yuónihaη+Verb+Pl
+3COLL:STA+2PL:ACT+yuónihaη+Verb+Pl
+1DUAL:ACT+oyákA+Verb
+1PL:ACT+oyákA+Verb+Pl
+a+Stem+1SG:ACT+2SG:STA+yúštaη+Verb
+a+Stem+1SG:ACT+2PL:STA+yúštaη+Verb+Pl
+a+Stem+3COLL:STA+1SG:ACT+yúštaη+Verb
+a+Stem+1SG:STA+2SG:ACT+yúštaη+Verb
+1PL:STA+a+Stem+2SG:ACT+yúštaη+Verb+Pl
+a+Stem+3COLL:STA+2SG:ACT+yúštaη+Verb
+1PL:ACT+a+Stem+2SG:STA+yúštaη+Verb+Pl
+1PL:ACT+a+Stem+2PL:STA+yúštaη+Verb+Pl
+a+Stem+3COLL:STA+1PL:ACT+yúštaη+Verb+Pl
+a+Stem+1SG:STA+2PL:ACT+yúštaη+Verb+Pl
+1PL:STA+a+Stem+2PL:ACT+yúštaη+Verb+Pl
+a+Stem+3COLL:STA+2PL:ACT+yúštaη+Verb+Pl
+1DUAL:ACT+yaηkÁ+Verb
+1PL:ACT+yaηkÁ+Verb+Pl
+3COLL:STA+1PL:ACT+úη+Verb+Pl
+3COLL:STA+1SG:ACT+úη+Verb
+1DUAL:ACT+iyúηǧA+Verb
+1PL:ACT+iyúηǧA+Verb+Pl
+i+Stem+1SG:STA+3SG:ACT+yúηǧA+Verb
+i+Stem+1SG:ACT+2PL:STA+yúηǧA+Verb+Pl
+1PL:STA+i+Stem+2SG:ACT+yúηǧA+Verb+Pl
+i+Stem+3COLL:STA+1PL:ACT+yúηǧA+Verb+Pl
+i+Stem+3COLL:STA+1SG:ACT+yúηǧA+Verb
+!correct uηK->'uη
+slol+Stem+1DUAL:ACT+yÁ+Verb
+slol+Stem+1PL:ACT+3SG:STA+yÁ+Verb+Pl
+slol+Stem+1PL:STA+3SG:ACT+yÁ+Verb+Pl
+!correct uηK->uη
+o+Stem+3COLL:STA+1DUAL:ACT+lé+Verb
+o+Stem+3COLL:STA+1PL:ACT+lé+Verb+Pl
+1PL:STA+2SG:ACT+kaȟníǧA+Verb+Pl
+1PL:ACT+2SG:STA+kaȟníǧA+Verb+Pl
+na+Stem+3COLL:STA+1PL:ACT+ȟ'úη+Verb+Pl
+í+Stem+1DUAL:STA+puzA+Verb
+í+Stem+1PL:STA+puzA+Verb+Pl
+iyé+Stem+1PL:ACT+yA+Verb+Pl
+1DUAL:ACT+yuhá+Verb
+1PL:ACT+yuhá+Verb+Pl
+1PL:STA+2SG:ACT+yuónihaη+Verb+Pl
+1PL:ACT+2SG:STA+yuónihaη+Verb+Pl
+1PL:ACT+2PL:STA+yuónihaη+Verb+Pl
+3COLL:STA+1PL:ACT+yuónihaη+Verb+Pl
+1PL:STA+2PL:ACT+yuónihaη+Verb+Pl
+čhažé+Stem+1PL:STA+2SG:ACT+yatA+Verb+Pl
+čhažé+Stem+1PL:ACT+2SG:STA+yatA+Verb+Pl
+čhažé+Stem+1PL:ACT+2PL:STA+yatA+Verb+Pl
+čhažé+Stem+3COLL:STA+1PL:ACT+yatA+Verb+Pl
+čhažé+Stem+1PL:STA+2PL:ACT+yatA+Verb+Pl
+a+Stem+3COLL:STA+1PL:ACT+yúštaη+Verb+Pl
+1DUAL:ACT+yaηkÁ+Verb
+1PL:ACT+yaηkÁ+Verb+Pl
+3PL:ACT+úη+Verb+Pl
+1PL:STA+2SG:ACT+úη+Verb+Pl
+i+Stem+3COLL:STA+1PL:ACT+yúηǧA+Verb+Pl
+!correct uηK->uηk
+1PL:ACT+o+Stem+2SG:STA+lé+Verb+Pl
+1PL:ACT+o+Stem+2PL:STA+lé+Verb+Pl
+1DUAL:STA+ičháǧA+Verb
+1PL:STA+ičháǧA+Verb+Pl
+1DUAL:ACT+oyákA+Verb
+1PL:ACT+oyákA+Verb+Pl
+1PL:STA+a+Stem+2SG:ACT+yúštaη+Verb+Pl
+1PL:ACT+a+Stem+2SG:STA+yúštaη+Verb+Pl
+1PL:ACT+a+Stem+2PL:STA+yúštaη+Verb+Pl
+1PL:STA+a+Stem+2PL:ACT+yúštaη+Verb+Pl
+1DUAL:ACT+iyúηǧA+Verb
+1PL:ACT+iyúηǧA+Verb+Pl
+1PL:STA+i+Stem+2SG:ACT+yúηǧA+Verb+Pl
+!correct uηK->uηk'
+1DUAL:ACT+úη+Verb
+1PL:ACT+úη+Verb+Pl
+3COLL:STA+1PL:ACT+úη+Verb+Pl
+!correct wíčha+uη->wíčhuη
+o+Stem+3COLL:STA+1PL:ACT+lé+Verb+Pl
+3COLL:STA+1PL:ACT+kaȟníǧA+Verb+Pl
+3COLL:STA+1PL:ACT+yuónihaη+Verb+Pl
+čhažé+Stem+3COLL:STA+1PL:ACT+yatA+Verb+Pl
+a+Stem+3COLL:STA+1PL:ACT+yúštaη+Verb+Pl
+i+Stem+3COLL:STA+1PL:ACT+yúηǧA+Verb+Pl
+!no movement of word-uη
+na+Stem+1SG:ACT+2SG:STA+ȟ'úη+Verb
+na+Stem+1SG:ACT+2PL:STA+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+1SG:ACT+ȟ'úη+Verb
+na+Stem+1SG:STA+2SG:ACT+ȟ'úη+Verb
+na+Stem+1PL:STA+2SG:ACT+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+2SG:ACT+ȟ'úη+Verb
+na+Stem+1PL:ACT+2SG:STA+ȟ'úη+Verb+Pl
+na+Stem+1PL:ACT+2PL:STA+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+1PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+1SG:STA+2PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+1PL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+na+Stem+3COLL:STA+2PL:ACT+ȟ'úη+Verb+Pl
+1DUAL:ACT+úη+Verb
+2SG:ACT+úη+Verb
+3SG:ACT+úη+Verb
+1PL:ACT+úη+Verb+Pl
+2PL:ACT+úη+Verb+Pl
+1SG:STA+3SG:ACT+úη+Verb
+1SG:ACT+2PL:STA+úη+Verb+Pl
+1PL:STA+2SG:ACT+úη+Verb+Pl
+3COLL:STA+1PL:ACT+úη+Verb+Pl
+3COLL:STA+1SG:ACT+úη+Verb
+i+Stem+1SG:ACT+yúηǧA+Verb
+1DUAL:ACT+iyúηǧA+Verb
+i+Stem+2SG:ACT+yúηǧA+Verb
+i+Stem+3SG:ACT+yúηǧA+Verb
+1PL:ACT+iyúηǧA+Verb+Pl
+i+Stem+2PL:ACT+yúηǧA+Verb+Pl
+i+Stem+3PL:ACT+yúηǧA+Verb+Pl
+i+Stem+1SG:STA+3SG:ACT+yúηǧA+Verb
+1PL:STA+i+Stem+2SG:ACT+yúηǧA+Verb+Pl
+i+Stem+3COLL:STA+1PL:ACT+yúηǧA+Verb+Pl
+i+Stem+3COLL:STA+1SG:ACT+yúηǧA+Verb
+!no stress on pi
+3PL:STA+káη+Verb+Pl
+2PL:ACT+úη+Verb+Pl
+3PL:ACT+úη+Verb+Pl
+!stress remains on first syllable
+í+Stem+1SG:STA+puzA+Verb
+í+Stem+2SG:STA+puzA+Verb
+í+Stem+3SG:STA+puzA+Verb
+í+Stem+1DUAL:STA+puzA+Verb
+í+Stem+1PL:STA+puzA+Verb+Pl
+í+Stem+2PL:STA+puzA+Verb+Pl
+í+Stem+3PL:STA+puzA+Verb+Pl
+í+Stem+3COLL:STA+puzA+Verb
+íη+Stem+2SG:STA+1SG:STA+skokeča+Verb
+íη+Stem+3COLL:STA+3PL:STA+skokeča+Verb+Pl

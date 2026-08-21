@@ -36,10 +36,10 @@ Load verb.xfst:
 ```
 source /your/path/lakota/verb.xfst
 ```
-A list of correct verb form descriptions can be found in upper.txt.
+A list of correct verb form descriptions can be found in upper-correct.txt.
 Translation into verb forms can be viewed:
 ```
-apply down < /your/path/lakota/upper.txt
+apply down < /your/path/lakota/upper-correct.txt
 ```
 A list of false verb form descriptions can be found in upper-false.txt.
 Failure to translate into verb forms can be viewed:
@@ -173,6 +173,14 @@ Ingham, Bruce (2003): Lakota, Languages of the World/Materials 426: LINCOM GmbH
 
 Lakota Language Consortium (2022), New Lakota Dictionary : 3rd. Edition,
 Bloomington : Lakota Language Consortium.
+
+<br>
+
+---
+## LICENSE
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0
+International License (CC BY-NC 4.0)](LICENSE). You are free to use, share, and adapt
+this work for non-commercial purposes, as long as you give appropriate credit ([see CITATION.cff](CITATION.cff)).
 
 <br>
 

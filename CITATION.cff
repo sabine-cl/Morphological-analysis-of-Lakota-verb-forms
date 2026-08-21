@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these linguistic resources, please cite as follows:"
+title: "Morphological analysis of Lakota verb forms"
+authors:
+  - family-names: "Hermes"
+    given-names: "Sabine"
+    orcid: "https://orcid.org/0009-0009-0461-0491"
+version: 1.0.0
+date-released: 2026-08-19
+url: "https://github.com/sabine-cl/Morphological-analysis-of-Lakota-verb-forms"
+repository-code: "https://github.com/sabine-cl/Morphological-analysis-of-Lakota-verb-forms"
+license: "CC-BY-NC-4.0"
+keywords:
+  - Computational linguistics
+  - Lakota language
+  - Morphological analysis
+  - xfst
