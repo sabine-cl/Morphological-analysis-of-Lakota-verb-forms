@@ -10,6 +10,7 @@ This repository provides a finite state morphological analyzer for Lakota verb f
   - [class3-personal-pronouns.lexc](#class3-personal-pronounslexc)
   - [verb.xfst](#verbxfst)
 - [Guidance for extension](#guidance-for-extension)
+- [License](#license)
 - [References](#references)
 
 
@@ -58,6 +59,7 @@ apply up iwíčhamuηǧe
 apply down i+Stem+3COLL:STA+1SG:ACT+yúηǧA+Verb
 ```
 
+In [python_scripts/](python_scripts/) there are scripts for simple automated test case execution and for production of upper verb forms.
 
 <br>
 

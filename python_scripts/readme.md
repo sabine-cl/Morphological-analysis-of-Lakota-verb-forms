@@ -9,6 +9,8 @@ The scripts
 
 allow a simple automated test case execution.
 
+Before execution, you need to open the files and replace  '/your/path' with your path to the lakota folder.
+
 ```
 python test_positive_applydown.py
 
@@ -58,9 +60,14 @@ Determine, whether personal pronouns are prefixed, infixed, or of mixed type.
 
 For example
 ```
-python create_upper_forms íPPpuzA a 1
+python create_upper_forms.py íPPpuzA a 1
 ```
 
 An output file "upper-forms.txt" is created.
 
+In xfst, you can use this file to produce the corresponding verb forms:
+
+```
+apply down < /your/path/lakota/python_scripts/upper-forms.txt
+```
 
