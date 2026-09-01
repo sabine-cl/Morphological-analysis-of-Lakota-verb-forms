@@ -38,6 +38,7 @@ else:
     if delta == "":    
         print("Everything right!")
     else:
+        print("Everything right except:")
         for line in delta2:
             print(line.strip())
             if line.startswith("+"):
