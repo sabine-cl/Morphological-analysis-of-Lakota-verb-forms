@@ -15,15 +15,23 @@ LEXICON Root
 LEXICON Class1VerbsInanimate
 !___Prefix___
 PP1čhéyA MarkActiveIntransitive;
-PP1holAη MarkActiveTransitive; !Fantasy
+PP1kawéǧA MarkActiveTransitive;
+PP1yažaη MarkStativeIntransitive;
+!
 !___Infix___
+iyóPP1kiphi MarkStativeTransitive;
 !
 !___Mixed___
+MaPP1híηȟpayA MarkStativeTransitive;
 
 LEXICON Class1VerbsAnimate
 !___Prefix___
 PP1^Káη MarkStativeIntransitive;
 PP1kaȟníǧA MarkActiveTransitive;
+PP1^K'ú MarkActiveTransitive;
+PP1glužáža MarkActiveTransitive;
+PP1kipázo MarkActiveTransitive;
+PP1ší MarkActiveTransitive;
 !
 !___Infix___
 slolPP1yÁ MarkActiveTransitive; !'un
@@ -31,6 +39,12 @@ iyéPP1yA MarkActiveTransitive; !Nasalization spread with uη und ni
 naPP1ȟ'úη MarkActiveTransitive;
 íPP1puzA MarkStativeIntransitive;
 íηPP1skokeča MarkStativeTransitive;
+iyéPP1čheča MarkStativeTransitive;
+íPP1taη MarkStativeTransitive;
+thePP1ȟíla MarkActiveTransitive;
+íPP1štuštA MarkStativeTransitive;
+čhaηtéPP1wašte MarkStativeIntransitive;
+ičháηtePP1wašte MarkStativeTransitive;
 !
 !___Mixed___
 MoPP1lé MarkActiveTransitive;
@@ -42,6 +56,8 @@ LEXICON Class2VerbsAnimate
 PP2yuhá MarkActiveTransitive;
 PP2yuónihaη MarkActiveTransitive;
 PP2yÁ MarkActiveIntransitive;
+PP2yúzA MarkActiveTransitive;
+PP2yučháηtešičA MarkActiveTransitive;
 !
 !___Infix___
 waηPP2yáηkA MarkActiveTransitive;
@@ -50,6 +66,7 @@ waηPP2yáηkA MarkActiveTransitive;
 !___Mixed___
 MoPP2yákA MarkActiveTransitive; !to report sth/sb
 MaPP2yúštaη MarkActiveTransitive;  !to let sth/sb alone
+MiPP2yáyA MarkActiveIntransitive; !to set out
 
 LEXICON Class2VerbsInanimate
 !___Prefix___
@@ -58,6 +75,7 @@ LEXICON Class2VerbsInanimate
 waPP2yúha MarkActiveIntransitive;  !to own property
 !
 !___Mixed___
+MiPP2yútȟA MarkActiveIntransitive;
 
 LEXICON Class3VerbsInanimate
 !___Prefix___
@@ -103,6 +121,6 @@ LEXICON NumberPl
 
 
 
-!read lexc /your/path/lakota/verb.lexc
+!read lexc /your/path/verb.lexc
 
 

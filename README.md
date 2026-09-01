@@ -52,6 +52,11 @@ Failure to translate into verb form descriptions can be viewed:
 ```
 apply down < /your/path/lakota/lower-false.txt
 ```
+A list of verb forms from publications of A. C. Esteban and W. J. de Reuse[(references below)](#references) can be found in upper_from_publications.txt.
+Some verb form descriptions do not produce the verb form, because pronoun order deviates from the order as described in Lakota Language Consortium (2022), New Lakota Dictionary [(full reference below)](#references).
+```
+apply down < /your/path/lakota/upper_from_publications.txt
+```
 To translate single verbforms, use apply up or apply down:
 ```
 apply up iwíčhamuηǧe
@@ -175,6 +180,18 @@ Ingham, Bruce (2003): Lakota, Languages of the World/Materials 426: LINCOM GmbH
 
 Lakota Language Consortium (2022), New Lakota Dictionary : 3rd. Edition,
 Bloomington : Lakota Language Consortium.
+
+and from
+
+Avelino Corral Esteban. An account of Lakota verbal affixes in transitive stative verbs. 16èmes Rencontres
+Jeunes Chercheurs (RJC 2013) : Modèles et modélisation dans les sciences du langage, May 2013, Paris, France.
+pp. 1-12. ⟨hal-00966569⟩
+
+Avelino Corral Esteban. A comparative analysis of three-place predicates in Lakhota within the RRG framework. Asociación Española de Lingüística Aplicada, AESLA: Revista española de lingüística aplicada 25, 2012. pp. 9-26.
+
+Willem J. de Reuse. Noun incorporation. Encyclopaedia of language and linguistics, 1994, pp. 2842-2847.
+
+Avelino Corral Esteban. New Insights Into Lakota Syntax: The Encoding of Arguments and the Number of Verbal Affixes.Studia Linguistica 80, no. 1: e70008, 2026. https://doi.org/10.1111/stul.70008.
 
 <br>
 

@@ -6,6 +6,7 @@ The scripts
 - test_positive_applydown.py
 - test_negative_applydown.py
 - test_negative_applyup.py
+- test_publications_applydown.py
 
 allow a simple automated test case execution.
 
@@ -17,6 +18,8 @@ python test_positive_applydown.py
 python test_negative_applydown.py
 
 python test_negative_applyup.py
+
+python test_publications_applydown.py
 ```
 
 They use the corresponding files
@@ -24,6 +27,7 @@ They use the corresponding files
  - upper-correct.txt
  - upper-negative.txt
  - lower-negative.txt
+ - upper_from_publications.txt
 
 to produce the respective lower or upper forms.
 Thereby an output.txt is created, which is compared to the corresponding
@@ -31,6 +35,7 @@ Thereby an output.txt is created, which is compared to the corresponding
 - upper-correct-goal.txt
 - upper-negative-goal.txt
 - lower-negative-goal.txt
+- goal_from_publications.txt
 
 Information on phenomena tested by each testcase can be found in [annotated_test_files](annotated_test_files/).
 
