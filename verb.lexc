@@ -12,89 +12,276 @@ LEXICON Root
 @U.Animate.Absent@ Class3VerbsInanimate;
 @U.Animate.Present@ Class3VerbsAnimate;
 
-LEXICON Class1VerbsInanimate
-!___Prefix___
-PP1čhéyA MarkActiveIntransitive;
-PP1kawéǧA MarkActiveTransitive;
-PP1yažaη MarkStativeIntransitive;
-!
-!___Infix___
-iyóPP1kiphi MarkStativeTransitive;
-!
-!___Mixed___
-MaPP1híηȟpayA MarkStativeTransitive;
-
 LEXICON Class1VerbsAnimate
-!___Prefix___
-PP1^Káη MarkStativeIntransitive;
-PP1kaȟníǧA MarkActiveTransitive;
-PP1^K'ú MarkActiveTransitive;
-PP1glužáža MarkActiveTransitive;
-PP1kipázo MarkActiveTransitive;
-PP1ší MarkActiveTransitive;
-!
-!___Infix___
-slolPP1yÁ MarkActiveTransitive; !'un
-iyéPP1yA MarkActiveTransitive; !Nasalization spread with uη und ni
-naPP1ȟ'úη MarkActiveTransitive;
+ablésPP1khiyA MarkActiveTransitive;
+MaPP1blézA MarkActiveTransitive;
+MaPP1kíblezA MarkActiveTransitive;
+MaPP1blóketu MarkStativeIntransitive;
+ablóketuPP1yA MarkActiveTransitive;
+MaPP1búhiηlA MarkActiveTransitive;
+MaPP1čháǧa MarkStativeIntransitive;
+ačháPP1kšiη MarkActiveTransitive;
+ačháηtaPP1gle MarkActiveTransitive;
+ačhéPP1thi MarkActiveTransitive;
+ačhéPP1thi MarkActiveTransitive;
+MaPP1čhépeča MarkStativeIntransitive;
+ačhúηPP1kaškA MarkActiveTransitive;
+MaPP1khí MarkActiveTransitive;
+PP1glokhí MarkActiveTransitive;
+MaPP1pȟÁ MarkActiveTransitive;
+apȟéPP1khiyA MarkActiveTransitive;
+MaPP1sákA MarkStativeIntransitive;
+MaPP1sčú MarkActiveTransitive;
+MaPP1sčú MarkActiveTransitive;
+MaPP1yáηpa MarkStativeIntransitive;
+ayáskabPP1tȟuη MarkActiveTransitive;
+ayáPP1skapA MarkStativeTransitive;
+PP1bá MarkActiveTransitive;
+PP1bákA MarkActiveTransitive;
+PP1kabláska MarkActiveTransitive;
+woPP1bláska MarkActiveTransitive;
+naPP1bláska MarkActiveTransitive;
+blaskáPP1ȟpayA MarkActiveIntransitive;
+naPP1bláyA MarkStativeIntransitive;
+woPP1bláyA MarkActiveTransitive;
+PP1pablázA MarkActiveTransitive;
+PP1blihéčA MarkStativeIntransitive;
+blihélPP1yA MarkActiveTransitive;
+ablíhelPP1yA MarkActiveTransitive;
+čhaPP1pȟÁ MarkActiveTransitive;
+čhaPP1kípȟA MarkActiveTransitive;
+ičhaPP1pȟÁ MarkStativeIntransitive;
+PP1čhépA MarkStativeIntransitive;
+čhebPP1yÁ MarkActiveIntransitive;
+PP1čhéyA MarkActiveIntransitive;
+MaPP1čhéyA MarkActiveTransitive;
+PP1kačhéyA MarkActiveTransitive;
+PP1čhíη MarkActiveTransitive;
+loPP1čhíη MarkActiveIntransitive;
+čhoPP1k'íη MarkActiveTransitive;
+mničhóPP1pȟA MarkActiveIntransitive;
+PP1čhózA MarkStativeIntransitive;
+PP1čhuwíta MarkStativeIntransitive;
+PP1čík'ala MarkStativeIntransitive;
+PP1gnákA MarkActiveTransitive;
+MaPP1gnákA MarkActiveTransitive;
+éPP1gnákA MarkActiveTransitive;
+woPP1gnáškiyAη MarkActiveTransitive;
+PP1gnáyAη MarkActiveTransitive;
+gnáyePP1khiyA MarkActiveTransitive;
+PP1ǧáη MarkStativeIntransitive;
+PP1ǧépA MarkActiveIntransitive;
+ǧiPP1yÁ MarkActiveTransitive;
+PP1ǧópA MarkActiveIntransitive;
+ǧuPP1yÁ MarkActiveTransitive;
+PP1gluháηskA MarkActiveTransitive;
+PP1howáyA MarkActiveIntransitive;
+šičáPP1howayA MarkActiveIntransitive;
+PP1kašíčahowayA MarkActiveTransitive;
+PP1hí MarkActiveIntransitive;
+MaPP1hí MarkActiveTransitive;
+hoPP1yÁ MarkActiveTransitive;
+huηPP1kákaη MarkActiveIntransitive;
+MiPP1čháǧA MarkStativeIntransitive;
+ičháȟPP1yA MarkActiveIntransitive;
+MoíPP1čhaȟyA MarkStativeIntransitive;
+iháηgPP1yA MarkActiveTransitive;
+ihéPP1yA MarkActiveTransitive;
+oíhePP1yA MarkActiveTransitive;
+íPP1taη MarkStativeIntransitive;
+iyóPP1kiphi MarkStativeTransitive;
+PP1púzA MarkStativeIntransitive;
 íPP1puzA MarkStativeIntransitive;
-íηPP1skokeča MarkStativeTransitive;
-iyéPP1čheča MarkStativeTransitive;
-íPP1taη MarkStativeTransitive;
+MiPP1tómni MarkStativeIntransitive;
+PP1kaítomni MarkStativeIntransitive;
+PP1kakȟápA MarkActiveTransitive;
+PP1kastó MarkActiveTransitive;
+waPP1kásto MarkActiveIntransitive;
+PP1kasúta MarkActiveTransitive;
+PP1kaswá MarkActiveTransitive;
+PP1kaswú MarkActiveTransitive;
+sipȟáPP1kaše MarkStativeIntransitive;
+PP1kaškÁ MarkActiveTransitive;
+éPP1kaškA MarkActiveTransitive;
+PP1kaštákA MarkActiveTransitive;
+PP1^Káη MarkStativeIntransitive;
+PP1khúžA MarkStativeIntransitive;
+PP1kipázo MarkActiveTransitive;
+PP1^K'ú MarkActiveTransitive;
+lulPP1yÁ MarkActiveTransitive;
+mnayPP1Áη MarkActiveTransitive;
+naPP1kipȟA MarkActiveIntransitive;
+PP1ní MarkActiveIntransitive;
+PP1lowaη MarkActiveIntransitive;
+PP1niyá MarkActiveIntransitive;
+PP1núni MarkActiveIntransitive;
+PP1gnúni MarkActiveTransitive;
+PP1ó MarkActiveTransitive;
+MoPP1k'Á MarkActiveTransitive;
+bloóPP1k'A MarkActiveIntransitive;
+ok'éPP1khiyA MarkActiveTransitive;
+MoPP1lé MarkActiveTransitive;
+MoPP1kás'a MarkActiveIntransitive;
+óPP1kas'iη MarkActiveIntransitive;
+MoPP1úηyAη MarkActiveIntransitive;
+PP1póǧaη MarkActiveTransitive;
+MaPP1póǧaη MarkActiveTransitive;
+PP1psičA MarkActiveIntransitive;
+MaPP1psičA MarkActiveTransitive;
+PP1sčú MarkStativeIntransitive;
+PP1stákA MarkStativeIntransitive;
+húPP1stakA MarkStativeIntransitive;
+PP1kat'Á MarkActiveTransitive;
+iPP1t'Á MarkStativeIntransitive;
+éPP1thi MarkActiveIntransitive;
+PP1tȟúη MarkActiveTransitive;
+čhašPP1tȟúη MarkActiveTransitive;
+PP1tȟaηíη MarkStativeIntransitive;
+PP1glatȟáηiη MarkActiveTransitive;
 thePP1ȟíla MarkActiveTransitive;
+PP1ú MarkActiveIntransitive;
+PP1wašté MarkStativeIntransitive;
+čhaηtePP1wašte MarkStativeIntransitive;
+waštéPP1khiyA MarkActiveTransitive;
+waštéPP1lakA MarkActiveTransitive;
+PP1glaksÁ MarkActiveTransitive;
+PP1glatȟÁ MarkActiveTransitive;
+PP1yazaη MarkStativeIntransitive;
+PP1glužáža MarkActiveTransitive;
+haPP1glužáža MarkActiveIntransitive;
+waPP1ší MarkActiveTransitive;
+wówašiPP1yA MarkActiveTransitive;
+PP1žó MarkActiveIntransitive;
+PP1kaȟníǧA MarkActiveTransitive;
+slolPP1yÁ MarkActiveTransitive;
+iyéPP1yA MarkActiveTransitive;
+naPP1ȟ'úη MarkActiveTransitive;
+íηPP1skokeča MarkStativeTransitive;
 íPP1štuštA MarkStativeTransitive;
 čhaηtéPP1wašte MarkStativeIntransitive;
 ičháηtePP1wašte MarkStativeTransitive;
-!
-!___Mixed___
-MoPP1lé MarkActiveTransitive;
-MiPP1čháǧA MarkStativeIntransitive;
 
+LEXICON Class1VerbsInanimate
+MaPP1blátA MarkActiveTransitive;
+ablésPP1yA MarkActiveTransitive;
+ablésPP1kiyA MarkActiveIntransitive;
+iyáPP1blezA MarkActiveTransitive;
+iyáPP1pȟA MarkStativeTransitive;
+ayáηbPP1yA MarkActiveTransitive;
+PP1pabláska MarkActiveTransitive;
+PP1kabláyA MarkActiveTransitive;
+PP1pabláyA MarkActiveTransitive;
+MaPP1blíhečA MarkStativeTransitive;
+čhoPP1pȟÁ MarkActiveTransitive;
+MePP1čhéča MarkStativeIntransitive;
+iyéPP1čheča MarkStativeTransitive;
+PP1gnaškíyAη MarkStativeIntransitive;
+MiPP1gnáškiyAη MarkStativeIntransitive;
+PP1ǧí MarkStativeIntransitive;
+MaPP1ǧí MarkStativeIntransitive;
+PP1glaǧópA MarkActiveTransitive;
+PP1ǧú MarkStativeIntransitive;
+PP1háηskA MarkStativeIntransitive;
+MiPP1háηke MarkStativeIntransitive;
+PP1kapúzA MarkStativeIntransitive;
+wíPP1glawa MarkActiveIntransitive;
+PP1kašé MarkStativeIntransitive;
+MiPP1káše MarkStativeIntransitive;
+PP1kawéǧA MarkActiveTransitive;
+PP1lá MarkActiveTransitive;
+waPP1lá MarkActiveIntransitive;
+PP1lúta MarkActiveIntransitive;
+naPP1pȟÁ MarkActiveIntransitive;
+haηnáPP1pȟA MarkActiveIntransitive;
+PP1pšá MarkActiveIntransitive;
+PP1kapsičA MarkActiveTransitive;
+PP1stóla MarkStativeIntransitive;
+PP1šíčA MarkStativeIntransitive;
+čhaηtéPP1šičA MarkStativeIntransitive;
+PP1t'Á MarkStativeIntransitive;
+PP1thí MarkActiveIntransitive;
+tȟáηiηPP1yAη MarkActiveTransitive;
+MiPP1wášte MarkStativeTransitive;
+PP1waštéčakA MarkStativeIntransitive;
+PP1yažaη MarkStativeIntransitive;
+MaPP1híηȟpayA MarkStativeTransitive;
 
 LEXICON Class2VerbsAnimate
-!___Prefix___
+PP2yabláska MarkActiveTransitive;
+PP2yubláyA MarkActiveTransitive;
+PP2yablihéča MarkActiveTransitive;
+ačhážePP2yatA MarkActiveTransitive;
+PP2yačhéyA MarkActiveTransitive;
+PP2yučík'ala MarkActiveTransitive;
+PP2yagnáškiyAη MarkActiveIntransitive;
+PP2yaǧópA MarkActiveTransitive;
+PP2yuháηskA MarkActiveTransitive;
+PP2yuíčhaȟyA MarkActiveTransitive;
+MiPP2yáyA MarkActiveIntransitive;
+PP2yapšá MarkActiveIntransitive;
+PP2yapsičA MarkActiveTransitive;
+PP2yupsičA MarkActiveTransitive;
+PP2yučháηtešičA MarkActiveTransitive;
+PP2yatȟáηiη MarkActiveTransitive;
+PP2yawášte MarkActiveTransitive;
+MaPP2yáksA MarkActiveTransitive;
+PP2yapsúη MarkActiveTransitive;
+waPP2yápsuη MarkActiveIntransitive;
+MaPP2yápsuη MarkActiveTransitive;
+PP2yatȟÁ MarkActiveTransitive;
+MiPP2yátȟA MarkActiveTransitive;
 PP2yuhá MarkActiveTransitive;
+waPP2yúha MarkActiveIntransitive;
+PP2yúzA MarkActiveTransitive;
+PP2yužáža MarkActiveTransitive;
+waηPP2yáηkA MarkActiveTransitive;
 PP2yuónihaη MarkActiveTransitive;
 PP2yÁ MarkActiveIntransitive;
-PP2yúzA MarkActiveTransitive;
-PP2yučháηtešičA MarkActiveTransitive;
-!
-!___Infix___
-waηPP2yáηkA MarkActiveTransitive;
-čhažéPP2^YatA MarkActiveTransitive; !to call sb/sth by name
-!
-!___Mixed___
-MoPP2yákA MarkActiveTransitive; !to report sth/sb
-MaPP2yúštaη MarkActiveTransitive;  !to let sth/sb alone
-MiPP2yáyA MarkActiveIntransitive; !to set out
+čhažéPP2^YatA MarkActiveTransitive;
+MoPP2yákA MarkActiveTransitive;
+MaPP2yúštaη MarkActiveTransitive;
 
 LEXICON Class2VerbsInanimate
-!___Prefix___
-!
-!___Infix___
-waPP2yúha MarkActiveIntransitive;  !to own property
-!
-!___Mixed___
+PP2yubláska MarkActiveTransitive;
+PP2yabláyA MarkActiveTransitive;
+PP2yablázA MarkActiveTransitive;
+PP2yublázA MarkActiveTransitive;
+MaPP2yáǧopA MarkActiveTransitive;
+MiPP2yáwa MarkActiveTransitive;
+wíPP2yawa MarkActiveIntransitive;
+PP2yaksÁ MarkActiveTransitive;
 MiPP2yútȟA MarkActiveIntransitive;
 
-LEXICON Class3VerbsInanimate
-!___Prefix___
-PP3yaηkÁ MarkActiveIntransitive;
-!___Infix___
-!
-!___Mixed___
-
 LEXICON Class3VerbsAnimate
-!___Prefix___
+MaPP3íč'iblezA MarkActiveIntransitive;
+ablóketuPP3ič'iyA MarkActiveIntransitive;
+ačhéPP3ič'ithi MarkActiveIntransitive;
+PP3iglókhi MarkActiveIntransitive;
+MaPP3ič'ipȟÁ MarkActiveIntransitive;
+čhaPP3íč'ipȟA MarkActiveIntransitive;
+čhažéPP3iglatA MarkActiveIntransitive;
+PP3íč'ignákA MarkActiveIntransitive;
+éPP3íč'ignákA MarkActiveIntransitive;
+PP3ič'ígnayAη MarkActiveIntransitive;
+ǧuPP3íč'iyA MarkActiveIntransitive;
+PP3iglóhi MarkActiveIntransitive;
+PP3ič'iglasúta MarkActiveIntransitive;
+blogPP3yaηkÁ MarkActiveIntransitive;
+PP3iglúha MarkActiveIntransitive;
+PP3iglúzA MarkActiveIntransitive;
+PP3ič'íglužaža MarkActiveIntransitive;
 PP3úη MarkActiveTransitive;
-!
-!___Infix___
-!
-!___Mixed___
 MiPP3yúηǧA MarkActiveTransitive;
 
+LEXICON Class3VerbsInanimate
+ablíhePP3ič'iyA MarkActiveIntransitive;
+MoPP3íč'ič'A MarkActiveTransitive;
+PP3yaηkÁ MarkActiveIntransitive;
+
+
+
 LEXICON MarkActiveIntransitive
-@U.Type.Active@@U.Valency.1@ MarkVerbRoot;
+@U.Valency.1@ MarkVerbRoot;
 
 LEXICON MarkStativeIntransitive
 @U.Type.Stative@@U.Valency.1@ MarkVerbRoot;
@@ -123,4 +310,4 @@ LEXICON NumberPl
 
 !read lexc /your/path/verb.lexc
 
-
+ 
